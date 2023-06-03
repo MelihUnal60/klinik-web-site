@@ -5,12 +5,13 @@ import Appointment from "./Pages/Appointment/Appointment"
 import Contact from "./Pages/Contact/Contact"
 import Treatments from "./Pages/Treatments/Treatments"
 import Error from "./Pages/Error/Error"
+import Naav from "./Components/Nav/Naav"
 
 function App() {
   return (
     <>
       <div className="App">
-        {/* navbar */}
+        <Naav />
         <div className="Main">
           <Routes>
             <Route path = "/" element={<Home />} />
