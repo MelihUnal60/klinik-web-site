@@ -1,10 +1,10 @@
 import {Route, Routes} from "react-router-dom"
-import Home from "./pages/Home/Home"
-import About from "./pages/About/About"
-import Appointment from "./pages/Appointment/Appointment"
-import Contact from "./pages/Contact/Contact"
-import Treatments from "./pages/Treatments/Treatments"
-import Error from "./pages/Error/Error"
+import Home from "./Pages/Home/Home"
+import About from "./Pages/About/About"
+import Appointment from "./Pages/Appointment/Appointment"
+import Contact from "./Pages/Contact/Contact"
+import Treatments from "./Pages/Treatments/Treatments"
+import Error from "./Pages/Error/Error"
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
             <Route path = "/appointment" element={<Appointment />} />
             <Route path = "/contact" element={<Contact />} />
             <Route path = "/treatments" element={<Treatments />} />
-            <Route path = "/error" element={<Error />} />
+            <Route path = "/*" element={<Error />} />
 
           </Routes>
         </div>
