@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact/Contact"
 import Treatments from "./Pages/Treatments/Treatments"
 import Error from "./Pages/Error/Error"
 import Naav from "./Components/Nav/Naav"
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
 
           </Routes>
         </div>
-        {/* footer */}
+        <Footer />
       </div>
     
     </>

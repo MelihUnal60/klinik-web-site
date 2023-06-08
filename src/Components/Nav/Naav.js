@@ -6,7 +6,7 @@ import styles from './Naav.module.scss';
 
 const Naav=() => {
   return (
-    <div>Navbar</div>
+    <h1>Buraya Navbar Gelecek</h1>
   )
 }
 
