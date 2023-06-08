@@ -1,1 +1,13 @@
 @import '../../Styles/Global.scss';
+
+.footer {
+    background-color: darkblue;
+    color : white !important;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 360px;
+    position: absolute;
+}
