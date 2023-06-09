@@ -8,13 +8,17 @@
     left: 0;
     right: 0;
     width: 100%;
-    min-height: 360px;
+    min-height: 560px;
     position: absolute;
     text-align: center;
     justify-content: center;
 
 }
-.fulasim{
-    border-right: silver;
-    border-width: 2px;
+
+.lokasyon {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: secondary;
+    
 }
+
