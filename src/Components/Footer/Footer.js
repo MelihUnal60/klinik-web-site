@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-import {BsTelephoneInboundFill} from 'react-icons/bs';
-import {BsFacebook} from 'react-icons/bs';
-import {RiInstagramFill} from 'react-icons/ri';
+import { BsTelephoneInboundFill } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
+import { RiInstagramFill } from 'react-icons/ri';
+import AccordionItem from '../Accordion/AccordionItem';
 
 
 function Footer() {
@@ -18,10 +19,11 @@ function Footer() {
                     <button class="btn btn-outline-secondary w-100 mb-3" type="button">
                         <BsFacebook />
                         <RiInstagramFill />
-                        </button>
+                    </button>
                 </div>
                 <div className='col-3'>
                     <h4 className='mt-5'>NASIL GİDİLİR?</h4>
+                     <AccordionItem />   
                 </div>
                 <div className='col-3'>
                     <h4 className='mt-5'>LOKASYONUMUZ</h4>
