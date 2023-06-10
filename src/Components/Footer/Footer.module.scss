@@ -3,7 +3,6 @@
 .footer {
     background-color: darkblue;
     color : rgb(180, 175, 175) !important;
-    display: flex;
     bottom: 0;
     left: 0;
     right: 0;
@@ -19,6 +18,14 @@
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: secondary;
+    height: 380px;
+    box-sizing: border-box;
     
 }
 
+.tecrube {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-style: italic;
+}
