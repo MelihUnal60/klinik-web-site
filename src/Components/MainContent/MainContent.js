@@ -13,7 +13,7 @@ function MainContent() {
                     src={mainphoto}
                     alt="Sağlıklı gülüşler"
                 />
-                <div>
+                <div className={styles.mainBox}>
                 <h1 className={styles.mainText}>Çalışkan Dental Kliniğe Hoş Geldiniz!</h1>
                 <h5 className={styles.mainText2}>34 yıllık tecrubemiz ve uzman kadromuz ile dişinizin sağlığı ve estetiği için yanınızdayız;</h5>
                 <h6 className={styles.mainText2}><FaTooth /> Çalışkan Dent olarak sağlıkla ve güvenle gülümsemeniz için, kalıcı ve ekonomik çözümlerle hizmetinizdeyiz.</h6>
