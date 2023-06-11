@@ -11,13 +11,20 @@
 .mainText {
     font-weight: 700;
     color: rgb(60, 60, 200);
-    font-family:serif;
-    
-    
+    font-family:serif;    
+}
+.mainText:hover {
+    color: darkblue;
+    transition: 1s;
 }
 .mainText2 {
     color: rgb(94, 94, 204);
     font-family:serif;
+    margin-top: 15px;
+}
+.mainContent h6:hover {
+       font-size: 20px; 
+       transition: 1s;
 }
 .mainBox {
     margin-top: 60px;
