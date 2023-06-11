@@ -1,0 +1,23 @@
+@import '../../Styles/Global.scss';
+
+.mainContent {
+    background-color: rgb(224, 243, 243);
+}
+.mainContent img {
+    max-height: 300px;
+    max-width: 250px;
+}
+.mainText {
+    font-weight: 700;
+    color: rgb(60, 60, 200);
+    font-family:serif;
+    margin-top: 25px;
+    margin-left: 30px;
+    
+}
+.mainText2 {
+    color: rgb(94, 94, 204);
+    font-family:serif;
+    margin-top: 20px;
+    margin-left: 30px;
+}
