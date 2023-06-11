@@ -1,5 +1,4 @@
 import React from 'react'
-import cerrahi from '../../Assets/cerrahi.jpeg'
 import { Carousel } from 'react-bootstrap'
 import implant from '../../Assets/i1.jpeg'
 import smile1 from '../../Assets/smile1.jpg'

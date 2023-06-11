@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Home.module.scss';
 import Slider from '../../Components/Slider/Slider';
 import MainContent from '../../Components/MainContent/MainContent';
+import TreatmentCard from '../../Components/TreatmentCard/TreatmentCard';
 
 
 const Home=() => {
@@ -11,7 +12,7 @@ const Home=() => {
 
       <Slider />
       <MainContent />
-      <h2>Tedaviler</h2>
+      <TreatmentCard />
       <h2>Randevu Formu</h2>
 
 
