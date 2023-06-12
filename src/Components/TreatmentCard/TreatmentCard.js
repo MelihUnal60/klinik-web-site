@@ -47,7 +47,7 @@ function TreatmentCard() {
                     <Card style={{ width: '22rem',marginLeft: '20px' }}>
                         <Card.Img variant="top" src={bleactching} />
                         <Card.Body>
-                            <Card.Title >Bleacthing</Card.Title>
+                            <Card.Title >Bleaching</Card.Title>
                             <Card.Text>
                             Diş implantları, bir diş veya birkaç diş eksikliği olan hastalarda kullanılabilir. İmplantlar, çeşitli diş problemleri olan kişilere uzun vadeli bir çözüm sunar ve doğru bir şekilde bakım sağlandığında uzun ömürlü olur.
                             </Card.Text>

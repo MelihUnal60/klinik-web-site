@@ -49,13 +49,13 @@ function Slider ()  {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className={styles.simg}
           src={bleatching}
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3 className={styles.labels}>BLEATCHİNG DİŞ BEYAZLATMA</h3>
+          <h3 className={styles.labels}>BLEACHİNG DİŞ BEYAZLATMA</h3>
           
         </Carousel.Caption>
       </Carousel.Item>
