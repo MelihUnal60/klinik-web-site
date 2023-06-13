@@ -1,12 +1,8 @@
 @import '../../Styles/Global.scss';
 
 .mainContent {
-    background-color: rgb(210, 252, 252);
+    background-color: rgb(225, 250, 250);
     height: 450px;
-}
-.mainContent img {
-    height: 450px;
-    width: 700px;
 }
 .mainText {
     font-weight: 700;
@@ -21,10 +17,11 @@
     color: rgb(94, 94, 204);
     font-family:serif;
     margin-top: 15px;
-    font-size: 17px;
+    font-size: 20px;
+    margin-top: 15px;
 }
-.mainContent h6:hover {
-       font-size: 20px; 
+.mainText2:hover {
+       font-size: 25px; 
        transition: 1s;
 }
 .mainBox {

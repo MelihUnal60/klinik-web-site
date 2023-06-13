@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './AppointmentForm.module.scss'
 import Form from 'react-bootstrap/Form';
+import appointmentimg from '../../Assets/main2.jpg'
 
 function AppointmentForm() {
     return (
@@ -11,7 +12,7 @@ function AppointmentForm() {
 
                 <div className={styles.appointmentBox}>
                     
-                        <h1 className='mr-5'>ÇALIŞKAN <br></br>DENT</h1>
+                        <img src = {appointmentimg}></img>
                     
                     
                         <Form>
@@ -20,15 +21,12 @@ function AppointmentForm() {
                                 <Form.Control type="email" placeholder="Telefon" style={{borderRadius:' 15px'}}/>
                             </Form.Group>
                             <Form.Group className="mb-3 d-flex">
-                                <Form.Control className='mr-3' type="email" placeholder="" style={{borderRadius:' 15px'}}/>
-                                <Form.Control type="email" placeholder="name@example.com" style={{borderRadius:' 15px'}}/>
+                                <Form.Control className='mr-3' type="date" placeholder="" style={{borderRadius:' 15px'}}/>
+                                <Form.Control type="time" placeholder="Randevu saati seçiniz" style={{borderRadius:' 15px'}}/>
                             </Form.Group>
-                            <Form.Group className="mb-3 d-flex">
-                                <Form.Control className='mr-3' type="email" placeholder="name@example.com" style={{borderRadius:' 15px'}}/>
-                                <Form.Control type="email" placeholder="name@example.com" style={{borderRadius:' 15px'}}/>
-                            </Form.Group>
+                            
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                <Form.Label>Bize İletmek İstediğiniz ;</Form.Label>
+                                <Form.Label style = {{marginLeft: '10px'}}>Bize İletmek İstediğiniz Mesajınız;</Form.Label>
                                 <Form.Control as="textarea" rows={3} style={{borderRadius:' 15px'}}/>
                             </Form.Group>
                         </Form>
