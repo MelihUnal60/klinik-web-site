@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './MainContent.module.scss'
 import mainphoto from '../../Assets/main2.jpg'
 import {FaTooth} from 'react-icons/fa'
+import hosg from '../../Assets/hosg.jpg'
 
 
 function MainContent() {
@@ -10,7 +11,7 @@ function MainContent() {
             <div className='container mt-5 d-flex'>
                 <img
                     className=''
-                    src={mainphoto}
+                    src={hosg}
                     alt="Sağlıklı gülüşler"
                 />
                 <div className={styles.mainBox}>
