@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './MainContent.module.scss'
-import mainphoto from '../../Assets/main2.jpg'
+
 import {FaTooth} from 'react-icons/fa'
 import hosg from '../../Assets/hosg.jpg'
-import { SassColor } from 'sass'
+
 
 
 function MainContent() {

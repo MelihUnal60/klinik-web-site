@@ -1,1 +1,37 @@
 @import '../../Styles/Global.scss';
+
+.navBar{
+    background-color:white;
+    
+
+    
+  
+    
+}
+.activeNavBar {
+
+    background-color: black;
+}
+.navBarCustom{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.navLink{
+     color:$primaryColor;
+}
+
+.menuLink{
+
+    color:black;
+}
+
+
+.basicNavDropdown>a {
+
+    color: blue !important;
+}
