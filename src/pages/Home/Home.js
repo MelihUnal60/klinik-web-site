@@ -10,7 +10,7 @@ import bgimg from '../../Assets/logo4.png';
 const Home=() => {
   return (
     <div>
-
+      
       <Slider />
       <MainContent />
       <TreatmentCard />

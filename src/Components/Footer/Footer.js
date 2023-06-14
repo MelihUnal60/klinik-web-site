@@ -17,7 +17,7 @@ function Footer() {
                 
                     <div className='container-fluid d-flex'>
                       <div className='row'>
-                        <div className='col-3'>
+                        <div className='col-12 col-md-3'>
                             <div className={styles.lokasyon}>
                                 <h4 className='mt-5 mb-3'>BİZE ULAŞIN</h4>
                                 <button class="btn btn-outline-secondary w-75 mb-3" type="button"><BsTelephoneInboundFill />0212 503 00 05</button>
@@ -29,7 +29,7 @@ function Footer() {
                                 </button>
                             </div>
                         </div>
-                        <div className='col-3 justify-content-center'>
+                        <div className='col-12 col-md-3 justify-content-center'>
                             <div className={styles.lokasyon}>
                                 <h4 className='mt-5 mb-2'>NASIL GİDİLİR?</h4>
                                 <div class="accordion ml-5" id="accordionExample">
@@ -76,13 +76,13 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-3'>
+                        <div className='col-12 col-md-3'>
                             <div className={styles.lokasyon}>
                                 <h4 className='mt-5 mb-3 '>LOKASYONUMUZ</h4>
                                 <a href="https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu" className='mr-5'><img src={Konum} alt="Klinik Konum" /></a>
                             </div>
                         </div>
-                        <div className='col-3'>
+                        <div className='col-12 col-md-3'>
 
                             <h4 className='mt-5'>SİZİ ARAYALIM</h4>
                             <form>
