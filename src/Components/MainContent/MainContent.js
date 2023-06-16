@@ -12,7 +12,7 @@ function MainContent() {
             <div className='row' >
                 <div className={`col-12 col-sm-6 ${styles.mainBox}`}>
 
-                    <h1 className={styles.mainText}>Çalışkan Dental'e Hoş Geldiniz!</h1>
+                    <h3 className={styles.mainText}>Çalışkan Dental'e Hoş Geldiniz!</h3>
                     
                     <h6 className={styles.mainText2}><FaTooth /> Çalışkan Dent olarak sağlıkla ve güvenle gülümsemeniz için, kalıcı ve ekonomik çözümlerle hizmetinizdeyiz.</h6>
                     <h6 className={styles.mainText2}><FaTooth /> Tedavi teknolojilerindeki gelişmeleri sürekli takip ederek en çağdaş malzemeler, en yeni cihazlar ile konforunuzu arttırmaya özen gösteriyoruz.</h6>

@@ -108,7 +108,7 @@ function Footer() {
                 <div className='container'>
                 <div className='row justify-content-center mt-5'>
                     <div className={styles.tecrube}>
-                        34 Yıllık Tecrubemiz İle Dişlerinizin Yanındayız...
+                        34 Yıllık Tecrübemiz İle Dişlerinizin Yanındayız...
                     </div>
                 </div>
                 </div>

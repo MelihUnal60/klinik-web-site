@@ -13,6 +13,7 @@ import greft from '../../Assets/greft.png';
 import { hover } from '@testing-library/user-event/dist/hover';
 
 
+
 function TreatmentCard() {
     return (
         <div className='container'>
@@ -29,7 +30,7 @@ function TreatmentCard() {
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
 
 
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px' }}>
+                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
                         <Card.Img variant="top" src={implant} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`} >Dental İmplant</Card.Title>
@@ -41,19 +42,19 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px' }}>
+                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
                         <Card.Img variant="top" src={zirkonyum2} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Zirkonyum Porselen</Card.Title>
                             <Card.Text>
-                                Zirkonyum porselen, diş kaplamaları ve protezler için kullanılan bir porselen türüdür. Diş estetiği ve restorasyonunda kullanılan bu malzeme, dayanıklılığı ve doğal görünümü nedeniyle popüler bir seçenektir.
+                                Zirkonyum porselen, diş kaplamaları ve protezler için kullanılan bir porselen türüdür. Diş estetiği ve restorasyonunda kullanılan bu malzeme,uzun dayanıklılığı ve doğal görünümü nedeniyle popüler bir seçenektir.
                             </Card.Text>
                             <Button variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px' }}>
+                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
                         <Card.Img variant="top" src={kanal} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Kanal Tedavisi</Card.Title>
@@ -83,7 +84,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Estetik Dolgular</Card.Title>
                             <Card.Text>
-                                Estetik diş dolguları, dişlerdeki çürükleri veya kırıkları onarmak ve diş rengini düzeltmek için kullanılan dolgu malzemeleridir. Daha estetik bir görünüm sağlarlar, çünkü diş rengiyle uyumlu olarak seçilen kompozit veya porselen malzemeler kullanılır.
+                                Daha estetik bir görünüm sağlarlar, çünkü diş rengiyle uyumlu olarak seçilen kompozit veya porselen malzemeler kullanılır.
                             </Card.Text>
                             <Button variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
@@ -95,7 +96,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Greft & Kemik Tozu Uygulaması</Card.Title>
                             <Card.Text className='py-2'>
-                                Greft ve kemik tozu uygulaması, dental implant veya dişeti tedavisi gibi bazı diş hekimliği prosedürlerinde kullanılan bir tedavi yöntemidir. Bu yöntem, eksik kemik dokusunu onarmak veya yeniden oluşturmak için kullanılır.
+                                Greft ve kemik tozu uygulaması, dental implant veya dişeti tedavisi gibi bazı diş hekimliği prosedürlerinde kullanılan bir tedavi yöntemidir.
                             </Card.Text>
                             <Button variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>

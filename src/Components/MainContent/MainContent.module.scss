@@ -7,6 +7,7 @@
     color: rgba(89, 202, 165, 0.8);
     font-family:serif; 
     text-align: center;   
+    margin-top: 10px;
 }
 .mainText:hover {
     color: darkblue;
@@ -33,10 +34,12 @@
     
     display: flex;
     height: 350px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
     
 }
 .mainAna {
-    background-color: #f0f2fc;
+    background-color: #f1f2f8;
     display: flex;
     justify-content: center;
     align-items: center;
