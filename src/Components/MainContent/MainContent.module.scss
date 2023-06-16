@@ -5,7 +5,8 @@
 .mainText {
     font-weight: 700;
     color: rgba(89, 202, 165, 0.8);
-    font-family:serif;    
+    font-family:serif; 
+    text-align: center;   
 }
 .mainText:hover {
     color: darkblue;
@@ -16,7 +17,7 @@
     font-family:serif;
     margin-top: 15px;
     font-size: 17px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .mainText2:hover {
        font-size: 25px; 
@@ -35,7 +36,7 @@
     
 }
 .mainAna {
-    background-color: #EFF3FC;
+    background-color: #f0f2fc;
     display: flex;
     justify-content: center;
     align-items: center;
