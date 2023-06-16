@@ -2,9 +2,9 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import implant from '../../Assets/i1.jpeg'
 import smile1 from '../../Assets/smile1.jpg'
-import splak from '../../Assets/splak1.jpg'
 import styles from './Slider.module.scss'
 import bleatching from '../../Assets/bleatching2.jpg'
+import zirkonyum from '../../Assets/zirkonyum3.jpg'
 
 
 
@@ -15,12 +15,12 @@ function Slider ()  {
       <Carousel.Item>
         <img
           className={styles.simg}
-          src={splak}
+          src={zirkonyum}
           alt="First slide"
         />
         <Carousel.Caption>
 
-          <h1 className={styles.labels2}>ŞEFFAF PLAKLAR</h1>
+          <h1 className={styles.labels}>DOĞAL ZİRKONYUM</h1>
           
         </Carousel.Caption>
       </Carousel.Item>
@@ -32,7 +32,7 @@ function Slider ()  {
         />
 
         <Carousel.Caption>
-          <h3 className={styles.labels2}>DENTAL İMPLANT İLE GENÇLEŞİN</h3>
+          <h3 className={styles.labels}>DENTAL İMPLANT İLE GENÇLEŞİN</h3>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

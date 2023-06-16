@@ -5,7 +5,10 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: rgb(254, 245, 245);
+    background-color: #E2E6EF;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @media (max-width: $media-md) {
@@ -21,7 +24,7 @@ body {
             border-color: $white !important;
         }
         .navbar-toggler-icon {
-        background-color: $white;
+        background-color: #E2E6EF;
         }
     }
 }

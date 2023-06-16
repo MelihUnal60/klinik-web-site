@@ -12,12 +12,12 @@ function AppointmentForm() {
                     <div className={styles.appointmentLabel}>ONLİNE RANDEVU FORMU</div>
                 </div>
             </div>
-            <div className='container'>
+            <div className={`container ${styles.appointmentGenel}`}>
                 <div className='row'>
-                    <div className='col-12 col-md-6'>
-                        <img className='img-fluid' src={appointmentimg}></img>
+                    <div className={`col-12 col-md-6 d-flex ${styles.tedaviFoto}`}>
+                        <img src={appointmentimg}></img>
                     </div>
-                    <div className='col-12 col-md-6'>
+                    <div className={`col-12 col-md-6 ${styles.appointmentForm}`}>
                         <Form>
                             <Form.Group className="mb-3 d-flex mt-5" controlId="exampleForm.ControlInput1">
                                 <Form.Control className='mr-3' type="email" placeholder="Ad - Soyad" style={{ borderRadius: ' 15px' }} />
