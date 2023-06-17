@@ -24,7 +24,7 @@ function Helper() {
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         HIZLI RANDEVU
                                     </h2>
-                                    <p>Hemen randevu talep edin.</p>
+                                    <p className={`${styles.elementorText2}`}>Hemen randevu talep edin.</p>
                                 </div>
                             </div>
 
@@ -44,7 +44,7 @@ function Helper() {
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         RÖNTGEN GÖNDERİN
                                     </h2>
-                                    <p>Tedavinizi Planlayalım.</p>
+                                    <p className={`${styles.elementorText2}`}>Tedavinizi Planlayalım.</p>
                                 </div>
                             </div>
 
@@ -64,7 +64,7 @@ function Helper() {
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         YURT DIŞI HASTA
                                     </h2>
-                                    <p>Hizmetlerimizi inceleyin.</p>
+                                    <p className={`${styles.elementorText2}`}>Hizmetlerimizi inceleyin.</p>
                                 </div>
                             </div>
 
@@ -73,7 +73,7 @@ function Helper() {
                 </div>
                 <div className={`elementor-column col-6 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
                     <div className={`container`}>
-                        <div className='row'>
+                        <div className='row d-flex'>
                             <div>
                                 <div className={`elementor-iletisim ${styles.bilgiText}`}>
                                     <h5>Bilgi ve Randevu İçin</h5>
