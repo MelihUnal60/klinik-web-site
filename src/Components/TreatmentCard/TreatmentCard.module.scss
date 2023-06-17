@@ -11,11 +11,17 @@
     background-image: linear-gradient(180deg,rgb(0, 0, 95), white 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 .mainTedavi img{
     height: 250px;
     opacity: 0.7;
     filter: alpha(opacity=70);
+}
+.mainTedavi img:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    transition: 1s;
 }
 .mainTedavi {
     color : rgb(5, 5, 115);
