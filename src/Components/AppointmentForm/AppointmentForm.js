@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './AppointmentForm.module.scss'
-import Form from 'react-bootstrap/Form';
-import appointmentimg from '../../Assets/main2.jpg'
+import Form from 'react-bootstrap/Form'
+import appointmentimg from '../../Assets/gulus2.jpg'
 
 function AppointmentForm() {
     return (

@@ -5,6 +5,8 @@ import styles from './Slider.module.scss'
 import bleatching from '../../Assets/bleatching2.jpg'
 import zirkonyum from '../../Assets/zirkonyum3.jpg'
 import { FaTooth } from 'react-icons/fa'
+import plak from '../../Assets/splak1.jpg'
+import smile from '../../Assets/gulslide.jpg'
 
 
 
@@ -26,7 +28,7 @@ function Slider() {
                     </div>
                 </div>
                 <div className={`carousel-item ${styles.carouselItem}`}>
-                    <img src={smile1} className="d-block w-100" alt="Gülüş tasarım uygulamaları" />
+                    <img src={smile} className={`d-block w-100 ${styles.carouselImg2}`} alt="Gülüş tasarım uygulamaları" />
                     <div className="carousel-caption d-none d-md-block">
                         <h5 className={`${styles.labels}`}>GÜLÜŞÜNÜZÜ YENİDEN TASARLAYALIM</h5>
                     </div>
@@ -37,6 +39,12 @@ function Slider() {
                         <h5 className={`${styles.labels}`}>BLEACHİNG DİŞ BEYAZLATMA</h5>
                     </div>
                 </div>
+                <div className={`carousel-item ${styles.carouselItem}`}>
+                    <img src={plak} className={`d-block w-100 ${styles.carouselImg}`} alt="Diş beyazlatma uygulamaları" />
+                    <div className="carousel-caption d-none d-md-block">
+                        <h5 className={`${styles.labels2}`}>ŞEFFAF PLAKLAR</h5>
+                    </div>
+                </div>
             </div>
             <div className={`${styles.carouselIndicators}`}>
                 <ul>
@@ -44,6 +52,7 @@ function Slider() {
                     <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className={`${styles.btnSlider}`} aria-label="Slide 2">02</button></li>
                     <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className={`${styles.btnSlider}`} aria-label="Slide 3">03</button></li>
                     <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className={`${styles.btnSlider}`} aria-label="Slide 4">04</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" className={`${styles.btnSlider}`} aria-label="Slide 4">05</button></li>
                 </ul>
                 
             </div>

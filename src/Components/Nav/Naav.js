@@ -8,6 +8,7 @@ import  logo from './caliskan-dis-klinigi.png';
 import  randevu from './randevu-icon.png';
 import React, { useState, useEffect } from "react"
 import { BsTelephoneInboundFill } from 'react-icons/bs';
+import logo3 from "../../Assets/logo3.jpg";
 
 const Naav = () => {
 const [navbar, setNavbar] = useState(false)   //navbar scroll when active state
@@ -94,8 +95,8 @@ const changeBackground=()=>{
 
                         <img
                         alt=""
-                        src={logo}
-                        width="200"
+                        src={logo3}
+                        width="100"
                         height="80"
                         className="d-inline-block align-top"
                         />{' '}
