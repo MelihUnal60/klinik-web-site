@@ -4,7 +4,6 @@
     text-align: center;
     font-weight: bold;
     font-family: sans-serif;
-    margin-top: 20px;
     letter-spacing: 7.1px;
     font-size: 60px;
     opacity: 1;
@@ -28,6 +27,9 @@
 .mainTedavi {
     color : rgb(5, 5, 115);
     background-color: white;
+    width: 100%;
+    text-align: center;
+    
     
 }
 .mainTedaviLabel {
@@ -37,12 +39,14 @@
 }
 .tedaviContainer {
     background-color:white ;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: max-content;
+    height: 1000px;
+    display: flex;
 }
 .cardBg {
-    margin-left:auto;
+    text-align: center;
+    display: flex;
 }
 .btnTdv {
     background-color: transparent;
@@ -51,8 +55,4 @@
 .btnTdv:hover {
     background-color: rgba(29, 166, 121, 0.8) ;   
 }
-.cardBody {
-    align-items: center;
-    text-align: center;
-    align-self: center;
-}
+
