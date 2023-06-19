@@ -1,7 +1,7 @@
 @import '../../Styles/Global.scss';
 
 .navBar{
-    background-color:#f3f6fc;
+    background-color:transparent;
     
 
     
@@ -27,7 +27,8 @@
 
 .menuLink{
 
-    color:rgba(41, 41, 156,0.8);
+    color:white;
+    filter: brightness(130%);
 }
 
 

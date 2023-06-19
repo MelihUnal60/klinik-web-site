@@ -11,12 +11,13 @@ import dolgu from '../../Assets/dolgu5.jpg';
 import gomuk from '../../Assets/gomuk.jpg';
 import greft from '../../Assets/greft.png';
 import { hover } from '@testing-library/user-event/dist/hover';
+import plak from '../../Assets/plak3.jpg'
 
 
 
 function TreatmentCard() {
     return (
-        <div className='container'>
+        <div className={`container-fluid ${styles.tedaviContainer}`}>
 
             <div className='row justify-content-center'>
                 <div className='col-12'>
@@ -27,78 +28,85 @@ function TreatmentCard() {
             </div>
             <div className={`row gx-3 gy-4 ${styles.cardBg}`}>
 
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
 
 
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',height: '340px',marginTop: '20px',width: '250px' }}>
                         <Card.Img variant="top" src={implant} />
-                        <Card.Body>
+                        <Card.Body className={styles.cardBody}>
                             <Card.Title className={`${styles.mainTedaviLabel}`} >Dental İmplant</Card.Title>
-                            <Card.Text>
-                                Diş implantları, bir diş veya birkaç diş eksikliği olan hastalarda kullanılabilir. İmplantlar, çeşitli diş problemleri olan kişilere uzun vadeli bir çözüm sunar ve doğru bir şekilde bakım sağlandığında uzun ömürlü olur.
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',height: '340px',marginTop: '20px',width: '250px' }}>
                         <Card.Img variant="top" src={zirkonyum2} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Zirkonyum Porselen</Card.Title>
-                            <Card.Text>
-                                Zirkonyum porselen, diş kaplamaları ve protezler için kullanılan bir porselen türüdür. Diş estetiği ve restorasyonunda kullanılan bu malzeme,uzun dayanıklılığı ve doğal görünümü nedeniyle popüler bir seçenektir.
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',height: '500px',marginTop: '20px' }}>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',height: '340px',marginTop: '20px',width: '250px' }}>
                         <Card.Img variant="top" src={kanal} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Kanal Tedavisi</Card.Title>
-                            <Card.Text>
-                                Kanal tedavisi, dişin iç kısmında bulunan pulp adı verilen yumuşak doku ve sinirlerin enfeksiyon veya hasar durumunda çıkarılarak, boşaltılan kanalın temizlenmesi, şekillendirilmesi ve doldurulması işlemidir.
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
-                
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',marginTop:'20px',height: '500px' }}>
-                        <Card.Img variant="top" src={gomuk} />
-                        <Card.Body>
-                            <Card.Title className={`${styles.mainTedaviLabel}`}>Çene Cerrahisi</Card.Title>
-                            <Card.Text>
-                                Çene cerrahisi, çene ve yüz bölgesindeki estetik veya sağlık sorunlarını tedavi etmek için yapılan cerrahi müdahaleleri kapsayan bir tıbbi disiplindir. 
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
-                        </Card.Body>
-                    </Card>
-                </div>
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',marginTop:'20px',height: '500px' }}>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',marginTop:'20px',height: '340px',width: '250px' }}>
                         <Card.Img variant="top" src={dolgu} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Estetik Dolgular</Card.Title>
-                            <Card.Text>
-                                Daha estetik bir görünüm sağlarlar, çünkü diş rengiyle uyumlu olarak seçilen kompozit veya porselen malzemeler kullanılır.
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
-                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-4`}>
-                    <Card style={{ boxShadow: '0px 0px 5px darkblue',marginTop:'20px',height: '500px'}}>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',marginTop:'20px',height: '340px',width: '250px' }}>
+                        <Card.Img variant="top" src={gomuk} />
+                        <Card.Body>
+                            <Card.Title className={`${styles.mainTedaviLabel}`}>Çene Cerrahisi</Card.Title>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',marginTop:'20px',height: '340px',width: '250px'}}>
+                        <Card.Img variant="top" src={lamina} />
+                        <Card.Body>
+                            <Card.Title className={`${styles.mainTedaviLabel}`}>Porselen Laminalar</Card.Title>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',marginTop:'20px',height: '340px',width: '250px'}}>
+                        <Card.Img variant="top" src={plak} />
+                        <Card.Body>
+                            <Card.Title className={`${styles.mainTedaviLabel}`}>Bruksizm - Şeffaf Plak</Card.Title>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
+                    <Card style={{ boxShadow: '0px 0px 4px darkblue',marginTop:'20px',height: '340px',width: '250px'}}>
                         <Card.Img variant="top" src={greft} />
                         <Card.Body>
-                            <Card.Title className={`${styles.mainTedaviLabel}`}>Greft & Kemik Tozu Uygulaması</Card.Title>
-                            <Card.Text className='py-2'>
-                                Greft ve kemik tozu uygulaması, dental implant veya dişeti tedavisi gibi bazı diş hekimliği prosedürlerinde kullanılan bir tedavi yöntemidir.
-                            </Card.Text>
-                            <Button variant="primary">Detaylı Bilgi</Button>
+                            <Card.Title className={`${styles.mainTedaviLabel}`}>Greft & Kemik Tozu </Card.Title>
+                            
+                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
