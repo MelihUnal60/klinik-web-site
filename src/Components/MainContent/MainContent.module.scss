@@ -43,18 +43,19 @@ justify-content: center;
 }
 
 .mainAna {
-    background-color: #faecec;
+    background-color: #fae4e4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 550px;
-    filter: brightness(105%);
+    filter: brightness(110%);
    
 }
 
 .mainBox {
     align-self: center;
-    text-align:center;
+    text-align:justify;
+    
     
 }
 .mainFoto img {
@@ -70,6 +71,7 @@ justify-content: center;
     font-weight: 575;
     color:rgb(0, 0, 156);
     filter: brightness(140%);
+    text-align: center;
 }
 
 .mainText3:hover {
