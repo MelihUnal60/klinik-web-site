@@ -24,12 +24,12 @@ function Helper() {
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         HIZLI RANDEVU
                                     </h2>
-                                    <p className={`${styles.elementorText2}`}>Hemen randevu talep edin.</p>
+                                    <p className={`${styles.elementorText2}`}>Randevu talep edin.</p>
                                 </div>
                             </div>
 
                         </div>
-                    </div>
+                    </div>  
                 </div>
                 <div className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
                     <div className={`elementor-widget-wrap elementor-element-populated `}>
@@ -42,7 +42,9 @@ function Helper() {
                                 </div>
                                 <div className='ml-2 mt-1'>
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
-                                        RÖNTGEN GÖNDERİN
+                                       
+                                       RÖNTGEN GÖNDERİN
+                                        
                                     </h2>
                                     <p className={`${styles.elementorText2}`}>Tedavinizi Planlayalım.</p>
                                 </div>

@@ -36,7 +36,7 @@ function AppointmentForm() {
                                 <Form.Control placeholder='Şikayetiniz ile ilgili bilgi verebilir misiniz?' className={`mr-3 ${styles.formCntrl2}`} as="textarea" rows={3}  />
                             </Form.Group>
                             <div className={styles.btnForm}>
-                            <button type="button" className="btn btn-primary btn-lg ">Block level button</button>
+                            <button type="button" className="btn btn-primary btn-lg ">GÖNDER</button>
                             </div>
                         </Form>
                     </div>

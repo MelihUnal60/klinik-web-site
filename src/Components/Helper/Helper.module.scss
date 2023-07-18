@@ -10,6 +10,7 @@
     background-color: white;
     margin-top: -50px;
     position: relative;
+    text-align:inherit;
     
     
 }
@@ -26,7 +27,7 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 550;
     color:  rgb(5, 5, 115);
 }
@@ -69,6 +70,7 @@
 }
 .elementorText2 {
     color:  rgb(5, 5, 115);
+    font-size: 13px;
 }
 .elementorText:hover {
     color:rgba(0, 173, 115, 0.8);

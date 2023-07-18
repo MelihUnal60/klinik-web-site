@@ -4,9 +4,9 @@
 
 
 .mainText {
-    font-weight: 700;
+    font-weight: 500;
     color: rgba(0, 173, 115, 0.8);
-    font-family:serif; 
+    //font-family:serif; 
     text-align: center;   
     margin-top: 10px;
 }
@@ -16,7 +16,7 @@
 }
 .mainText2 {
     color: rgb(0, 0, 63);
-    font-family: "Gilroy", Sans-serif;
+    //font-family: "Gilroy", Sans-serif;
     margin-top: 15px;
     font-size: 17px;
     margin-top: 25px;
@@ -65,18 +65,18 @@ justify-content: center;
    
 }
 .mainText3 {
-    font-family: 'Oswald', sans-serif !important;
+    //font-family: 'Oswald', sans-serif !important;
     font-style:italic;
     margin-top: 40px;
     font-weight: 575;
-    color:rgb(0, 0, 156);
+    color:rgba(2, 119, 80, 0.8);
     filter: brightness(140%);
     text-align: center;
 }
 
 .mainText3:hover {
     filter: brightness(500%);
-    font-size: 40px;
-    transition: 2s;
+    font-size: 35px;
+    transition: 1s;
 }
 

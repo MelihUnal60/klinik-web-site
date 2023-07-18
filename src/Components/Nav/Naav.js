@@ -1,16 +1,18 @@
-
 import { Container,Navbar,Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-
+import {AiOutlineAlert} from 'react-icons/ai'
 import styles from './Naav.module.scss';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import  logo from './caliskan-dis-klinigi.png';
-import  randevu from './randevu-icon.png';
 import React, { useState, useEffect } from "react"
 import { BsTelephoneInboundFill } from 'react-icons/bs';
-import logo3 from "../../Assets/logo3.jpg";
+import { useNavigate } from 'react-router-dom';
+import AppointmentForm from '../AppointmentForm/AppointmentForm';
+import {FaArrowRight} from 'react-icons/fa';
 
 const Naav = () => {
+
+const navigate=useNavigate();
+
 const [navbar, setNavbar] = useState(false)   //navbar scroll when active state
 
 const changeBackground=()=>{
@@ -30,26 +32,26 @@ const changeBackground=()=>{
 
     const menus = [
         {
-            name: "Ana Sayfa",
+            name: "ANA SAYFA",
             id: 1,
             path: "/"
         },
         {
-            name: "Hakkımızda",
+            name: "HAKKIMIZDA",
             id: 2,
             path: "/about"
         },
         {
-            name: "İletişim",
+            name: "İLETİŞİM",
             id: 3,
             path: "/contact"
         },
         {
-            name: "Randevu Al",
-            id: 4,
-            path: "/appointment"
+            name: "ÖNCE-SONRA",
+            id: 3,
+            path: "/contact"
         },
-      
+            
       
    ]
    {/* <NavDropdown.Item href="#treatments/1"></NavDropdown.Item>
@@ -87,25 +89,16 @@ const changeBackground=()=>{
    ];
     return (
         <div>
-             
-            <Navbar expand="lg" className={navbar? "activeNavBar" :`${styles.navBar} fixed-top` }>
+            <Navbar expand="lg" className={navbar? "activeNavBar" :`${styles.navBar}` }>
                 <Container>
                     <Navbar.Brand>
                         <NavLink to="/" className={`${styles.navLink} text-uppercase`}>
-
-                        <img
-                        alt=""
-                        src={logo3}
-                        width="100"
-                        height="80"
-                        className="d-inline-block align-top"
-                        />{' '}
-
+                            <h3>ÇALIŞKAN DENT</h3>
                         </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScrooll" />
                     <Navbar.Collapse id="navbarScrooll">
-                        <Nav className={`ms-auto my-2 my-lg-0 ${styles.navBarCustom}` }   
+                        <Nav className={`ml-auto my-2 my-lg-0 ${styles.navBarCustom}` }   
                             style={{ maxHeight: "100px" }}
                             navbarScrooll>
                                  {menus.map((menu)=> <NavLink
@@ -115,7 +108,7 @@ const changeBackground=()=>{
                                         {menu.name}
                                     </NavLink> )    }
                                                            
-                               <NavDropdown title="Tedaviler" className={`${styles.basicNavDropdown}`}>
+                               <NavDropdown title="TEDAVİLER" className={`${styles.basicNavDropdown}`}>
                                {
                                 treatments.map((menu) => (
                            
@@ -125,33 +118,16 @@ const changeBackground=()=>{
                                 }
                                 </NavDropdown>
 
-                                <button type="submit" class="btn btn-outline-secondery">Randevu Al {'  '}
-                                <img
-                               alt=""
-                               src={randevu}
-                               width="40"    //css de yap 
-                               height="40"
-                               className="d-inline-block align-floor"
-                             />
-                        
-                        </button>
+                                
 
-                        <button class="btn btn-outline-primary w-45" type="button"><BsTelephoneInboundFill />0212 503 00 05</button>
+                        <button class="btn btn-outline-primary w-45" type="button">RANDEVU AL <FaArrowRight /></button>
                        </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
-        </div >
-
-
-        
+        </div >    
     );
 }
 
 export default Naav;
 
-
-
-
- 
