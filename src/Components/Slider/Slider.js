@@ -11,7 +11,7 @@ import smile from '../../Assets/gulslide.jpg'
 function Slider() {
     return (
 
-        <div id="carouselExampleCaptions" className={`carousel-slide fixed ${styles.slider}`}>
+        <div id="carouselExampleCaptions" className={`carousel-slide ${styles.slider}`}>
             <div className="carousel-inner">
                 <div className={`carousel-item ${styles.carouselItem}`}>
                     <img src={zirkonyum} className="d-block w-100 simg" alt="Zirkonyum diş uygulamaları" />
@@ -46,11 +46,11 @@ function Slider() {
             </div>
             <div className={`${styles.carouselIndicators}`}>
                 <ul>
-                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className={`active ${styles.btnSlider}`} aria-current="true" aria-label="Slide 1">01</button></li>
-                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className={`${styles.btnSlider}`} aria-label="Slide 2">02</button></li>
-                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className={`${styles.btnSlider}`} aria-label="Slide 3">03</button></li>
-                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className={`${styles.btnSlider}`} aria-label="Slide 4">04</button></li>
-                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" className={`${styles.btnSlider}`} aria-label="Slide 4">05</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className={`active  ${styles.btnSlider}`} aria-current="true" aria-label="Slide 1">01</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className={` ${styles.btnSlider}`} aria-label="Slide 2">02</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className={` ${styles.btnSlider}`} aria-label="Slide 3">03</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className={` ${styles.btnSlider}`} aria-label="Slide 4">04</button></li>
+                    <li className={`${styles.btnLi}`}><button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" className={` ${styles.btnSlider}`} aria-label="Slide 4">05</button></li>
                 </ul>
                 
             </div>
