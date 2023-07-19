@@ -16,8 +16,9 @@ function ContactCard() {
         
       
         <h2 className={`text-center align-items-center`}>BİZE ULAŞIN</h2>
-        <br>
-        </br>
+        
+        <hr></hr>
+        <h4 className='text-center'>Adres : Fevzi Çakmak Mah. Yıldırım Beyazıt Cd. Zile Sokak No:2 D:2 B.Evler / İST.</h4>
         <br>
         </br>
         <br>

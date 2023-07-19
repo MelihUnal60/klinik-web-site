@@ -1,8 +1,11 @@
 import React from 'react'
+import BeforeAfterContent from '../../Components/BeforeAfterContent/BeforeAfterContent';
 
 const  BeforeAfter=() => {
   return (
-    <div>BeforeAfter</div>
+    <div>
+      <BeforeAfterContent />
+    </div>
   )
 }
 
