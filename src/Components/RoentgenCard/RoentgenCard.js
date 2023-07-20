@@ -25,12 +25,12 @@ function RoentgenCard() {
               <input className="form-control p-1" type="file" id="formFile" />
             </div>
             <div className="input-group mt-3">
-              <span className="input-group-text" id="basic-addon1"> Adınız </span>
-              <input type="text" className="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+              {/* <span className="input-group-text" id="basic-addon1"> Adınız </span> */}
+              <input type="text" placeholder='Adınız' className="form-control" aria-label="Username" aria-describedby="basic-addon1" />
             </div>
             <div className="input-group mt-3">
-              <span className="input-group-text" id="basic-addon1">Telefon</span>
-              <input type="text" className="form-control" aria-label="Username" aria-describedby="basic-addon1" />
+              {/* <span className="input-group-text" id="basic-addon1">Telefon</span> */}
+              <input type="text" placeholder='Telefon Numarası' className="form-control" aria-label="Username" aria-describedby="basic-addon1" />
             </div>
             <Form.Group className={`mt-3 ${styles.formMsg}`} controlId="exampleForm.ControlTextarea1">
               <Form.Control placeholder='Bize iletmek istediklerinizi buraya yazabilirsiniz' className={`mr-3 ${styles.formCntrl2}`} as="textarea" rows={3} />

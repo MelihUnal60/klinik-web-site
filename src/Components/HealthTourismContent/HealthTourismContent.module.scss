@@ -2,10 +2,10 @@
 
 .tourismImg img{
     height: 330px;
-    padding-left: 20px ;
+    
 }
 .tourismContainer{
-    height: 1300px;
+    height: 1600px;
 }
 .tourismLabel {
     font-style: italic;
@@ -18,8 +18,19 @@
     background-color: rgba(255, 255, 255,.9);
 }
 .tourismText {
-    text-align: center;
+    text-align: end;
+    
 }
 .tourismTextLabel {
     color: rgb(18, 226, 156);
+    text-align: center;
+    
+}
+.btnTourismRoentgen {
+   width: 200px;
+   text-align: center;
+   border-radius: 12px;
+}
+.main1 {
+    display: flex;
 }

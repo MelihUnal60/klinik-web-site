@@ -8,6 +8,7 @@ import { BsTelephoneInboundFill } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import { FaArrowRight } from 'react-icons/fa';
+import SendRoentgen from '../../pages/SendRoentgen/SendRoentgen';
 
 const Naav = () => {
 
@@ -135,10 +136,10 @@ const Naav = () => {
 
 
                             
-                                <button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>
+                                {/* <button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>  */}
+                                <a href="#Appointment"><button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button></a>
 
-
-                                <button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
+                                <button onClick={()=> navigate ('/sendroentgen')} className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
                             
                             
                         </Nav>

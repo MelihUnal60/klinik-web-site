@@ -7,7 +7,7 @@ import Treatments from "./pages/Treatments/Treatments"
 import Error from "./pages/Error/Error"
 import Footer from './Components/Footer/Footer'
 import Header from "./Components/Header/Header"
-import SendRoetgen from "./pages/SendRoetgen/SendRoetgen"
+import SendRoentgen from "./pages/SendRoentgen/SendRoentgen"
 import BeforeAfter from "./pages/BeforeAfter/BeforeAfter"
 import Navbar from './Components/Nav/Naav'
 import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
@@ -30,7 +30,7 @@ function App() {
             <Route path = "/contact" element={<Contact />} />
             <Route path = "/treatments" element={<Treatments />} />
             <Route path = "/*" element={<Error />} />
-            <Route path = "/sendroetgen" element={<SendRoetgen />} />
+            <Route path = "/sendroentgen" element={<SendRoentgen />} />
 
           </Routes>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import RoentgenCard from '../../Components/RoentgenCard/RoentgenCard'
 
- const SendRoetgen=() => {
+ const SendRoentgen=() => {
   return (
     <div>
       
@@ -11,4 +11,4 @@ import RoentgenCard from '../../Components/RoentgenCard/RoentgenCard'
   )
 }
 
-export default SendRoetgen;
+export default SendRoentgen;

@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 function AppointmentForm() {
     return (
 
-        <div className={`container-fluid ${styles.appointmentContainer}`}>
+        <div id='Appointment' className={`container-fluid ${styles.appointmentContainer}`}>
             <div className='row'>
                 <div className='col-12'>
                     <div className={styles.appointmentLabel}>ONLİNE RANDEVU FORMU</div>
