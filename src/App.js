@@ -10,6 +10,7 @@ import Header from "./Components/Header/Header"
 import SendRoetgen from "./pages/SendRoetgen/SendRoetgen"
 import BeforeAfter from "./pages/BeforeAfter/BeforeAfter"
 import Navbar from './Components/Nav/Naav'
+import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path = "/beforeafter" element={<BeforeAfter />} />
             <Route path = "/about" element={<About />} />
             <Route path = "/appointment" element={<Appointment />} />
+            <Route path = "/healthtourism" element={<HealthTourismContent />} />
             <Route path = "/contact" element={<Contact />} />
             <Route path = "/treatments" element={<Treatments />} />
             <Route path = "/*" element={<Error />} />
