@@ -46,9 +46,9 @@ function Header() {
                     </button>
                 </div>
                 <div className={`col-4 ${styles.headerIcon}`}>
-                    <a href="https://www.facebook.com/Microsoft/">
+                    <a className={styles.aIcon} href="https://www.facebook.com/Microsoft/">
                     <BsFacebook /> </a>
-                    <a href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
+                    <a className={styles.aIcon2} href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
                     <RiInstagramFill /></a>
                     <a href="https://shgmturizmdb.saglik.gov.tr/" className={styles.headerTrzm}>
                          <RiHandSanitizerFill />
