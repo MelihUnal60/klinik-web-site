@@ -108,8 +108,13 @@ function Footer() {
                 <div className='container'>
                 <div className='row justify-content-center mt-5'>
                     <div className={styles.tecrube}>
-                        34 Yıllık Tecrübemiz İle Dişlerinizin Yanındayız...
+                       <h4>
+                            34 Yıllık Tecrübemiz İle Dişlerinizin Yanındayız...
+                        </h4> 
+                        
+                        <h6>Web Tasarım : 0543 528 83 64</h6>
                     </div>
+                    
                 </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     
 }
 .tourismContainer{
-    height: 1600px;
+    height: 1450px;
 }
 .tourismLabel {
     font-style: italic;
@@ -18,7 +18,7 @@
     background-color: rgba(255, 255, 255,.9);
 }
 .tourismText {
-    text-align: end;
+    text-align: center;
     
 }
 .tourismTextLabel {
@@ -33,4 +33,5 @@
 }
 .main1 {
     display: flex;
+    align-items: center;
 }

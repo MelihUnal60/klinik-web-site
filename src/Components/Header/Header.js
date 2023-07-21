@@ -5,29 +5,13 @@ import tr from '../../Assets/tr.svg';
 import gb from '../../Assets/gb.svg';
 import { BsFacebook } from 'react-icons/bs';
 import { RiInstagramFill } from 'react-icons/ri';
-import { MdHeight } from 'react-icons/md';
-import { SiZenn } from 'react-icons/si';
 import { RiHandSanitizerFill } from 'react-icons/ri';
-import { Container,Navbar,Nav } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-import {AiOutlineAlert, AiOutlineRight} from 'react-icons/ai'
-import { useState, useEffect } from "react"
-
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
-
-
-
 import { useNavigate } from 'react-router-dom';
-import AppointmentForm from '../AppointmentForm/AppointmentForm';
-import { FaArrowRight } from 'react-icons/fa';
-
-
 
 
 function Header() {
 
-
+    const navigateHeader = useNavigate();
 
 
     return (
@@ -50,10 +34,10 @@ function Header() {
                     <BsFacebook /> </a>
                     <a className={styles.aIcon2} href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
                     <RiInstagramFill /></a>
-                    <a href="https://shgmturizmdb.saglik.gov.tr/" className={styles.headerTrzm}>
+                    <button onClick={()=> navigateHeader ('/healthtourism')} type='button' className={`btn align-items-center btn-sm ${styles.headerTrzm}`}>
                          <RiHandSanitizerFill />
-                        <h6>SAĞLIK TURİZMİ</h6>
-                    </a>
+                        <h6 className='align-self-center'>SAĞLIK TURİZMİ</h6>
+                    </button>
 
                 </div>
                 <div className={`col-4 ${styles.languageFlag}`}>

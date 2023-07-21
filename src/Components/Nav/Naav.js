@@ -1,14 +1,11 @@
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import { AiOutlineAlert } from 'react-icons/ai'
 import styles from './Naav.module.scss';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React, { useState, useEffect } from "react"
-import { BsTelephoneInboundFill } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
-import AppointmentForm from '../AppointmentForm/AppointmentForm';
 import { FaArrowRight } from 'react-icons/fa';
-import SendRoentgen from '../../pages/SendRoentgen/SendRoentgen';
+import logo from '../../Assets/logoCanva6.png';
 
 const Naav = () => {
 
@@ -109,7 +106,7 @@ const Naav = () => {
                 <Container>
                     <Navbar.Brand>
                         <NavLink to="/" className={`${styles.navLink} text-uppercase`}>
-                            <h3>ÇALIŞKAN DENT</h3>
+                            <img src={logo} height={'55px'}/>
                         </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScrooll" />
@@ -137,7 +134,7 @@ const Naav = () => {
 
                             
                                 {/* <button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>  */}
-                                <a href="#Appointment"><button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button></a>
+                                <button onClick={() => navigate ('/appointment')} className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>
 
                                 <button onClick={()=> navigate ('/sendroentgen')} className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
                             
