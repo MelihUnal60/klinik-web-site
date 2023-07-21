@@ -19,24 +19,24 @@ function Header() {
             <div className='row'>
                 <div className={`col-4 ${styles.headerPhone}`}>
                     <button className=' btn d-flex'>
-                        <div className={` mr-2 ${styles.phoneIcon}`}>
+                        <div className={` ${styles.phoneIcon}`}>
                             <BsTelephoneInboundFill />
                         </div>
-                        <div className='mt-1'>
+                        <div className={styles.headerPhone2}>
                             <h6>
                                 <span className={styles.phoneStart}>0543 528 83 64</span>
                             </h6>
                         </div>
                     </button>
                 </div>
-                <div className={`col-4 ${styles.headerIcon}`}>
+                <div className={`col-4  ${styles.headerIcon}`}>
                     <a className={styles.aIcon} href="https://www.facebook.com/Microsoft/">
                     <BsFacebook /> </a>
                     <a className={styles.aIcon2} href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
                     <RiInstagramFill /></a>
-                    <button onClick={()=> navigateHeader ('/healthtourism')} type='button' className={`btn align-items-center btn-sm ${styles.headerTrzm}`}>
+                    <button onClick={()=> navigateHeader ('/healthtourism')} type='button' className={`btn btn-sm text-center ${styles.headerTrzm}`}>
                          <RiHandSanitizerFill />
-                        <h6 className='align-self-center'>SAĞLIK TURİZMİ</h6>
+                        <h5 className={`text-center ${styles.headerTourismLabel}`}>SAĞLIK TURİZMİ</h5>
                     </button>
 
                 </div>

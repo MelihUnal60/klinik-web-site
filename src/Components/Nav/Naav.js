@@ -106,10 +106,10 @@ const Naav = () => {
                 <Container>
                     <Navbar.Brand>
                         <NavLink to="/" className={`${styles.navLink} text-uppercase`}>
-                            <img src={logo} height={'55px'}/>
+                            <img src={logo} height={'55px'} />
                         </NavLink>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScrooll" />
+                    <Navbar.Toggle className='order-5' aria-controls="navbarScrooll" />
                     <Navbar.Collapse id="navbarScrooll">
                         <Nav className={`ml-auto my-2 my-lg-0 ${styles.navBarCustom}`}
                             style={{ maxHeight: "100px" }}
@@ -132,15 +132,20 @@ const Naav = () => {
                             </NavDropdown>
 
 
-                            
-                                {/* <button className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>  */}
-                                <button onClick={() => navigate ('/appointment')} className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>
 
-                                <button onClick={()=> navigate ('/sendroentgen')} className={`btn btn-outline-primary w-45 ${styles.btnNav}`} type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
-                            
-                            
+
+
+
+
                         </Nav>
+
                     </Navbar.Collapse>
+                    <div className={`order-1 ${styles.navBtnDiv}`}>
+                        <button onClick={() => navigate('/appointment')} className={`btn w-45 ${styles.btnNav}`} type="button">RANDEVU AL <FaArrowRight /></button>
+
+                        <button onClick={() => navigate('/sendroentgen')} className={`btn w-45 ${styles.btnNav2}`} type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
+
+                    </div>
                 </Container>
             </Navbar>
         </div >

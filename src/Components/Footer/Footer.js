@@ -86,20 +86,20 @@ function Footer() {
 
                             <h4 className='mt-5'>SİZİ ARAYALIM</h4>
                             <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Ad / Soyad</label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className="form-label">Ad / Soyad</label>
+                                    <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
 
                                 </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Telefon Numarası</label>
-                                    <input type="telephone" class="form-control" id="exampleInputPassword1" />
+                                <div className="mb-3">
+                                    <label for="exampleInputPassword1" className="form-label">Telefon Numarası</label>
+                                    <input type="telephone" className="form-control" id="exampleInputPassword1" />
                                 </div>
-                                <div class="mb-3 form-check d-flex">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                    <label class="form-check-label" for="exampleCheck1"><strong>Gizlilik koşullarını okudum kabul ediyorum.</strong> Formda girmiş olduğunuz bilgiler sadece sizlere geri dönüş sağlayabilmek ve randevunuzun oluşturulması için kullanılacaktır.</label>
+                                <div className="mb-3 form-check d-flex">
+                                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                    <label className="form-check-label" for="exampleCheck1"><strong>Gizlilik koşullarını okudum kabul ediyorum.</strong> Formda girmiş olduğunuz bilgiler sadece sizlere geri dönüş sağlayabilmek ve randevunuzun oluşturulması için kullanılacaktır.</label>
                                 </div>
-                                <button type="submit" class="btn btn-outline-secondary">Gönder</button>
+                                <button type="submit" className="btn btn-outline-secondary">Gönder</button>
                             </form>
                         </div>
                     </div>

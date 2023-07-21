@@ -1,4 +1,4 @@
-import {Route, Routes} from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home/Home"
 import About from "./pages/About/About"
 import Appointment from "./pages/Appointment/Appointment"
@@ -16,27 +16,27 @@ function App() {
   return (
     <>
       <div className="App">
-        
+
         <Header />
         <Navbar />
 
-        <div className="Main">
-          <Routes>
-            <Route path = "/" element={<Home />} />
-            <Route path = "/beforeafter" element={<BeforeAfter />} />
-            <Route path = "/about" element={<About />} />
-            <Route path = "/appointment" element={<Appointment />} />
-            <Route path = "/healthtourism" element={<HealthTourismContent />} />
-            <Route path = "/contact" element={<Contact />} />
-            <Route path = "/treatments" element={<Treatments />} />
-            <Route path = "/*" element={<Error />} />
-            <Route path = "/sendroentgen" element={<SendRoentgen />} />
 
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/beforeafter" element={<BeforeAfter />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/appointment" element={<Appointment />} />
+          <Route path="/healthtourism" element={<HealthTourismContent />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/treatments" element={<Treatments />} />
+          <Route path="/*" element={<Error />} />
+          <Route path="/sendroentgen" element={<SendRoentgen />} />
+
+        </Routes>
+
         <Footer />
       </div>
-    
+
     </>
   );
 }

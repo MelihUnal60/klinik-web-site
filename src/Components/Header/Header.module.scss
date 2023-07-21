@@ -4,6 +4,18 @@
     background-color: white;
     height: 39px;
 }
+
+@media screen and (max-width:420) {
+    .headerContainer {
+        width: 360px;
+    }
+    .headerTourismLabel {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
 .headerPhone {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
@@ -33,7 +45,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: darkblue;
 }
 .headerTrzm {
     display: flex;
@@ -41,10 +52,13 @@
     color: rgba(255, 255, 255,.9);
     padding-top: 5px;
     //background-color: rgb(4, 201, 135);
-    background-color: red;
+    background-color: rgb(232, 5, 5);
     border: none;
     border-radius: 10px;
     line-height: 0;
+    align-items: center;
+    text-align: center;
+    
     
 }
 .languageFlag {
@@ -52,8 +66,45 @@
     justify-content: end;
 }
 .aIcon {
-    color: darkblue;
+    color: darkblue;    
 }
 .aIcon2 {
     color: rgba(226, 55, 226,.9);
+}
+.headerTourismLabel {
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:576px){
+    .headerTrzm{
+        height: 33px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        
+    }
+    .aIcon{
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .aIcon2{
+        padding-bottom: 40px;
+        margin-right: 20px;
+    }
+    .headerTourismLabel {
+        font-size: 11px;
+    }
+    .headerPhone2{
+        display: none;
+    }
+    .phoneIcon {
+        
+        margin-bottom: 40px;
+        color: rgb(55, 241, 55);
+        font-size: 20px;
+    }
+    
+    
 }
