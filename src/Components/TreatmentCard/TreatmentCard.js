@@ -9,7 +9,6 @@ import zirkonyum2 from '../../Assets/zirkonyum2.png';
 import dolgu from '../../Assets/dolgu5.jpg';
 import gomuk from '../../Assets/gomuk.jpg';
 import greft from '../../Assets/greft.png';
-import { hover } from '@testing-library/user-event/dist/hover';
 import plak from '../../Assets/plak3.jpg'
 
 
