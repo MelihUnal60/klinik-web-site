@@ -47,7 +47,7 @@
 .formMsg {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     align-self: center;
     margin: auto;
 }
@@ -59,4 +59,10 @@
 .btnForm button {
     border-radius: 10px;
     background-color: darkblue;
+}
+
+@media  screen and (max-width:576px) {
+    .formCntrl{
+        width: 250px;
+    }
 }

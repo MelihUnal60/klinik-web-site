@@ -112,7 +112,7 @@ const Naav = () => {
                     <Navbar.Toggle className='order-5' aria-controls="navbarScrooll" />
                     <Navbar.Collapse id="navbarScrooll">
                         <Nav className={`ml-auto my-2 my-lg-0 ${styles.navBarCustom}`}
-                            style={{ maxHeight: "100px" }}
+                            style={{ maxHeight: "50px" }}
                             navbarScrooll>
                             {menus.map((menu) => <NavLink
                                 key={menu.id}

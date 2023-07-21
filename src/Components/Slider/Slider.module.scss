@@ -70,7 +70,7 @@ button:focus {
     color: rgb(248, 233, 221);
     position: absolute;
     bottom:330px;
-    right: -40px;
+    //right: -40px;
 }
 .carouselImg {
     filter: brightness(95%);
@@ -78,4 +78,12 @@ button:focus {
 }
 .carouselImg2 {
     filter: brightness(140%);
+}
+@media screen and (max-width:576px){
+    .labels{
+        font-size: 20px;
+    }
+    .labels2{
+        font-size: 20px;
+    }
 }

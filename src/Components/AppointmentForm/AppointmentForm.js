@@ -20,16 +20,16 @@ function AppointmentForm() {
                     <div className={`col-12 ${styles.appointmentForm}`}>
                         <Form>
                             <Form.Group className={`mb-3 ${styles.formMsg}`} controlId="exampleForm.ControlInput1">
-                                <Form.Control className={`mr-3 ${styles.formCntrl}`} type="email" placeholder="Ad - Soyad" />
-                                <Form.Control className={` ${styles.formCntrl}`} type="email" placeholder="Telefon"  />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" placeholder="Ad - Soyad" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" placeholder="Telefon"  />
                             </Form.Group>
                             <Form.Group className={`mb-3 ${styles.formMsg}`}>
-                                <Form.Control className={`mr-3 ${styles.formCntrl}`} type="date" placeholder="" />
-                                <Form.Control className={` ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" placeholder="" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
                             </Form.Group>
-                            <Form.Group className={`mb-3 ${styles.formMsg}`}>
-                                <Form.Control className={`mr-3 ${styles.formCntrl}`} type="date" placeholder="" />
-                                <Form.Control className={` ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
+                            <Form.Group className={`mb-3  ${styles.formMsg}`}>
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" placeholder="" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
                             </Form.Group>
 
                             <Form.Group className={`mb-3 ${styles.formMsg}`} controlId="exampleForm.ControlTextarea1">
