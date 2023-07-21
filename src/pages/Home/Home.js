@@ -11,7 +11,7 @@ import AboutOwner from '../../Components/AboutOwner/AboutOwner';
 const Home=() => {
   return (
     <div>    
-      <Slider />
+      <Slider /> 
       <Helper />
       <MainContent />
       <TreatmentCard />

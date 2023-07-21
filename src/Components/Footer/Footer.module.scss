@@ -19,7 +19,7 @@
     border-width: 0px 1px 0px 0px;
     border-color: rgba(247, 243, 243,0.2);
     height: 380px;
-    box-sizing: border-box;
+    
     justify-content: center;
     
 }
@@ -32,4 +32,16 @@
 }
 .lokasyon img {
     border-radius: 12px;
+}
+@media screen and (max-width:576px) {
+
+    .footerInput {
+        width: 330px;
+    }
+    .footer {
+        margin-top: 50px;
+    }
+    .formGz {
+        display: none;
+    }
 }

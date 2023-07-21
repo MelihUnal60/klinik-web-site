@@ -5,15 +5,7 @@
     height: 39px;
 }
 
-@media screen and (max-width:420) {
-    .headerContainer {
-        width: 360px;
-    }
-    .headerTourismLabel {
-        padding: 0;
-        margin: 0;
-    }
-}
+
 
 
 .headerPhone {
@@ -104,6 +96,7 @@
         margin-bottom: 40px;
         color: rgb(55, 241, 55);
         font-size: 20px;
+        margin-right: 20px;
     }
     
     
