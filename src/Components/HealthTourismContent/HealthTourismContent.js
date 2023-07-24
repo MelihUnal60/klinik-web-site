@@ -32,7 +32,7 @@ function HealthTourismContent() {
                             <button onClick={()=> navigateTourism ('/sendroentgen')} type="button" className={`btn btn-success btn-lg ${styles.btnTourismRoentgen}`}>RÖNTGEN GÖNDERİN</button>
                         </div>
                         <div className={`col-12 col-md-6 ${styles.tourismImg}`}>
-                            <img src={tourismRoentgen} />
+                            <img className={styles.imgRnt} src={tourismRoentgen} />
                         </div>
                     
 
@@ -72,7 +72,7 @@ function HealthTourismContent() {
 
                 </div>
                 <div className={`col-12 d-flex justify-content-center ${styles.tourismImg}`}>
-                    <img src={transfer} />
+                    <img className={styles.vitoPhoto} src={transfer} />
                 </div>
 
             </div>

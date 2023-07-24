@@ -35,3 +35,14 @@
     display: flex;
     align-items: center;
 }
+@media screen and (max-width:576px) {
+    .tourismContainer img {
+        width: 320px;
+    }
+    .vitoPhoto {
+        display: none;
+    }
+    .imgRnt {
+        margin-top: 20px;
+    }
+}

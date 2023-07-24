@@ -27,11 +27,7 @@ function AppointmentForm() {
                                 <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" placeholder="" />
                                 <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
                             </Form.Group>
-                            <Form.Group className={`mb-3  ${styles.formMsg}`}>
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" placeholder="" />
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
-                            </Form.Group>
-
+                            
                             <Form.Group className={`mb-3 ${styles.formMsg}`} controlId="exampleForm.ControlTextarea1">
                                 <Form.Control placeholder='Şikayetiniz ile ilgili bilgi verebilir misiniz?' className={`mr-3 ${styles.formCntrl2}`} as="textarea" rows={3}  />
                             </Form.Group>

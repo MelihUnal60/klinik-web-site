@@ -19,7 +19,7 @@
     border-style: solid;
     border-width: 0px 1px 0px 0px;
     border-color: rgba(247, 243, 243,0.2);
-    height: 380px;
+    height: 350px;
     justify-content: end;
     padding-left: 30px;
     
@@ -45,11 +45,6 @@
 }
 @media screen and (max-width:576px) {
 
-    
-    .footer {
-        margin-top: 50px;
-        //padding: 0;
-    }
     .formGz {
         display: none;
     }
@@ -69,5 +64,13 @@
     }
     .lokasyon2{
         display: none;
-    }
+    }        
+}
+.accFooter {
+    width: 250px;
+    border: none;
+    border-radius: 10px
+}
+.btnLok {
+    width: 250px;
 }

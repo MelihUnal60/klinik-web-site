@@ -24,11 +24,11 @@
 .carousel-control-prev {
     border: none;
 }
-.carouselIndicators {
-    position: absolute;
-    right: 80px;
-    top: 210px;
-    background-color: transparent;
+.carouselIndicators  {
+    position: absolute !important;
+    right: 80px !important;
+    top: 210px !important;
+    background-color: transparent !important;
     
     
 }

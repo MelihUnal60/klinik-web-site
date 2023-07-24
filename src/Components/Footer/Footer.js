@@ -19,11 +19,11 @@ function Footer() {
                 <div className='row m-0'>
                     <div className='col-12 col-md-3'>
                         <div className={styles.lokasyon}>
-                            <h4 className='pt-5 m-0 '>BİZE ULAŞIN</h4>
-                            <button className="btn btn-outline-secondary w-75 mb-3" type="button"><BsTelephoneInboundFill />0212 503 00 05</button>
-                            <button className="btn btn-outline-secondary w-75 mb-3" type="button"><SlCalender />Online Randevu</button>
-                            <button className="btn btn-outline-secondary w-75 mb-3" type="button">caliskandent@gmail.com</button>
-                            <button className="btn btn-outline-secondary w-75 mb-3" type="button">
+                            <h4 className='pt-3 pr-5'>BİZE ULAŞIN</h4>
+                            <button className="btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center" type="button"><BsTelephoneInboundFill />0212 503 00 05</button>
+                            <button className="btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center" type="button"><SlCalender />Online Randevu</button>
+                            <button className="btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center" type="button">caliskandent@gmail.com</button>
+                            <button className="btn btn-outline-secondary w-75 mb-3 d-flex justify-content-evenly" type="button">
                                 <BsFacebook />
                                 <RiInstagramFill />
                             </button>
@@ -31,11 +31,11 @@ function Footer() {
                     </div>
                     <div className='col-12 col-md-3 justify-content-center'>
                         <div className={styles.lokasyon2}>
-                            <h4 className='pt-5 mb-2'>NASIL GİDİLİR?</h4>
-                            <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                            <h4 className='pt-3 mb-2'>NASIL GİDİLİR?</h4>
+                            <div className={`accordion ${styles.accFooter}`} id="accordionExample">
+                                <div className={`accordion-item  ${styles.accFooter}`}>
                                     <h2 className="accordion-header" id="headingOne">
-                                        <button className="btn btn-outline-secondary w-75 d-flex justify-content-between mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button className={`btn btn-outline-secondary justify-content-between d-flex mt-3 ${styles.btnLok}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             <span>Adres</span>
                                             <i><MdArrowDropDownCircle /></i>
                                         </button>
@@ -49,7 +49,7 @@ function Footer() {
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingTwo">
-                                        <button className="btn btn-outline-secondary w-75 d-flex justify-content-between mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <button className={`btn btn-outline-secondary justify-content-between d-flex mt-3 ${styles.btnLok}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                             <span>Metro</span>
                                             <i><MdArrowDropDownCircle /></i>
                                         </button>
@@ -62,7 +62,7 @@ function Footer() {
                                 </div>
                                 <div className="accordion-item">
                                     <h2 className="accordion-header" id="headingThree">
-                                        <button className="btn btn-outline-secondary w-75 justify-content-between d-flex mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <button className={`btn btn-outline-secondary justify-content-between d-flex mt-3 ${styles.btnLok}`} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                             <span>Metrobüs</span>
                                             <i><MdArrowDropDownCircle /></i>
                                         </button>
@@ -78,13 +78,13 @@ function Footer() {
                     </div>
                     <div className='col-12 col-md-3'>
                         <div className={styles.lokasyon}>
-                            <h4 className='mt-5  '>LOKASYONUMUZ</h4>
-                            <a href="https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu" ><img src={Konum} alt="Klinik Konum" /></a>
+                            <h4 className='mt-3  '>LOKASYONUMUZ</h4>
+                            <a className='d-flex justify-content-center' href="https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu" ><img src={Konum} alt="Klinik Konum" /></a>
                         </div>
                     </div>
                     <div className='col-12 col-md-3'>
 
-                        <h4 className='mt-5'>SİZİ ARAYALIM</h4>
+                        <h4 className='mt-3'>SİZİ ARAYALIM</h4>
                         <form>
                             <div className="">
                                 <label for="exampleInputEmail1" className="form-label">Ad / Soyad</label>

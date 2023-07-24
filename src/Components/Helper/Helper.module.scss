@@ -19,6 +19,7 @@
    border-radius: 15px;
    border: none;
    background-color: white;
+   
 }
 .elementorText {
     align-self: center;
@@ -37,6 +38,7 @@
     background-color: #1ec1b8;
     border-radius: 15px;
     border: none;
+    height: 85px;
    
 }
 .iconBox {
@@ -52,6 +54,8 @@
 .bilgiText {
     color: rgb(5, 5, 115);
     margin-top: 8px;
+    align-items:start;
+    display: flex;
 }
 .telText {
     color: rgb(248, 236, 221);
@@ -59,17 +63,15 @@
     padding: 0;
 }
 .wpLogo {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    align-self: center;
     
+    display: flex;
+    justify-content: space-evenly;
 }
 .wpLogo2 {
     display: flex;
-    align-items: center;
-    justify-content: end;
+    justify-content: start;
     width: 100%;
+    margin-bottom: 40px;
 }
 .elementorText2 {
     color:  rgb(5, 5, 115);
