@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Home.module.scss';
+//import styles from './Home.module.scss';
 import Slider from '../../Components/Slider/Slider';
 import MainContent from '../../Components/MainContent/MainContent';
 import TreatmentCard from '../../Components/TreatmentCard/TreatmentCard';
@@ -13,7 +13,7 @@ const Home=() => {
     <div>    
       <Slider /> 
       <Helper />
-      <MainContent />
+      <MainContent /> 
       <TreatmentCard />
       <AppointmentForm />
       <AboutOwner />

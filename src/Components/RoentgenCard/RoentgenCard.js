@@ -17,7 +17,7 @@ function RoentgenCard() {
         <h5 className='text-center'>Elinizde mevcut ağız-çene görüntülerini bizimle paylaşın, en hızlı ve en ekonomik şekilde tedavinizi planlayalım.</h5>
         <div className={`row ${styles.roentgenContent}`}>
           <div className={`col-12 col-md-6 d-flex justify-content-start ${styles.rPhoto}`}>
-            <img src={sendr} />
+            <img src={sendr} alt='...' />
           </div>
           <div className={`col-12 col-md-6`}>
             <div className="mr-3">

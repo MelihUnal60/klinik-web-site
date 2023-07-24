@@ -7,13 +7,15 @@
     font-weight: 500;
     color: rgba(0, 173, 115, 0.8);
     //font-family:serif; 
-    text-align: center;   
+    text-align: center;
     margin-top: 10px;
 }
+
 .mainText:hover {
     filter: brightness(200%);
     transition: 1s;
 }
+
 .mainText2 {
     color: rgb(0, 0, 63);
     //font-family: "Gilroy", Sans-serif;
@@ -21,25 +23,26 @@
     font-size: 17px;
     margin-top: 25px;
 }
+
 .mainText2:hover {
-       font-size: 19px; 
-       transition: 1s;
+    font-size: 19px;
+    transition: 1s;
 }
 
-.mainFoto{
-    
+.mainFoto {
+
     display: flex;
-    height: 450px;
+    height: 300px;
     opacity: 0.9;
     filter: alpha(opacity=90);
     filter: contrast(150%);
--webkit-filter: contrast(120%);
--moz-filter: contrast(120%);
--o-filter: contrast(120%);
--ms-filter: contrast(120%);
-justify-content: center;
+    -webkit-filter: contrast(120%);
+    -moz-filter: contrast(120%);
+    -o-filter: contrast(120%);
+    -ms-filter: contrast(120%);
+    justify-content: center;
 
-    
+
 }
 
 .mainAna {
@@ -47,29 +50,31 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    //height: 550px;
     filter: brightness(110%);
-   
+
 }
 
 .mainBox {
     align-self: center;
-    text-align:justify;
-    
-    
+    text-align: justify;
+
+
 }
+
 .mainFoto img {
-    border-radius: 10px ;
+    border-radius: 10px;
     height: 400px;
-    
-   
+
+
 }
+
 .mainText3 {
     //font-family: 'Oswald', sans-serif !important;
-    font-style:italic;
+    font-style: italic;
     margin-top: 40px;
     font-weight: 575;
-    color:rgba(2, 119, 80, 0.8);
+    color: rgba(2, 119, 80, 0.8);
     filter: brightness(140%);
     text-align: center;
 }
@@ -80,9 +85,34 @@ justify-content: center;
     transition: 1s;
 }
 
-@media  screen and (max-width:576px) {
-    .mainFoto img{
-        width: 200px;
-        height: 200px;
+@media screen and (max-width:576px) {
+    .mainFoto img {
+        width: 250px;
+        height: 250px;
     }
+}
+
+@media screen and (min-width:576px) {
+    .mainAna {
+        background-color: #fae4e4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        filter: brightness(110%);
+    }
+
+    .mainFoto {
+        display: flex;
+        height: 300px;
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+        filter: contrast(150%);
+        -webkit-filter: contrast(120%);
+        -moz-filter: contrast(120%);
+        -o-filter: contrast(120%);
+        -ms-filter: contrast(120%);
+        justify-content: center;
+    }
+
 }

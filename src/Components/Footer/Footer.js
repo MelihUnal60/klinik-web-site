@@ -42,7 +42,7 @@ function Footer() {
 
                                     </h2>
                                     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body w-75">
+                                        <div className="accordion-body w-75">
                                             <strong>Fevzi Çakmak Mah. Zile Sk. No:2/2 Bahçelievler/İST.</strong>
                                         </div>
                                     </div>
@@ -54,7 +54,7 @@ function Footer() {
                                             <i><MdArrowDropDownCircle /></i>
                                         </button>
                                     </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div className="accordion-body w-75">
                                             <strong>Yenikapı-AHL metrosu ile Yenibosna-Metro durağında inerek kolayca ulaşabilirsiniz</strong>
                                         </div>
@@ -87,17 +87,17 @@ function Footer() {
                         <h4 className='mt-3'>SİZİ ARAYALIM</h4>
                         <form>
                             <div className="">
-                                <label for="exampleInputEmail1" className="form-label">Ad / Soyad</label>
+                                <label htmlFor="exampleInputEmail1" className="form-label">Ad / Soyad</label>
                                 <input type="text" className={`form-control ${styles.footerInput}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
 
                             </div>
                             <div className="mb-3">
-                                <label for="exampleInputPassword1" className="form-label">Telefon Numarası</label>
+                                <label htmlFor="exampleInputPassword1" className="form-label">Telefon Numarası</label>
                                 <input type="telephone" className={`form-control ${styles.footerInput}`} id="exampleInputPassword1" />
                             </div>
                             <div className="mb-3 form-check">
                                 <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                                <label className="form-check-label" for="exampleCheck1"><strong>Gizlilik koşullarını okudum kabul ediyorum.</strong></label>
+                                <label className="form-check-label" htmlFor="exampleCheck1"><strong>Gizlilik koşullarını okudum kabul ediyorum.</strong></label>
                                 <p className={styles.formGz}>
                                     Formda girmiş olduğunuz bilgiler sadece sizlere geri dönüş sağlayabilmek ve randevunuzun oluşturulması için kullanılacaktır.
                                 </p>

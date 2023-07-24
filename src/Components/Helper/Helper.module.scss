@@ -1,26 +1,33 @@
-@import  '../../Styles/Global.scss';
+@import '../../Styles/Global.scss';
 
-.helperMain {
-    box-sizing: border-box;
-    justify-content: space-evenly;
-    display: flex;
-    height: 110px;
-    align-items: center;
-    border-radius: 15px;
-    background-color: white;
-    margin-top: -50px;
-    position: relative;
-    text-align:inherit;
-    
-    
+.helperMain {}
+
+@media screen and (min-width:576px) {
+    .helperMain {
+
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        display: flex;
+        //height: 110px;
+        align-items: center;
+        border-radius: 15px;
+        background-color: white;
+        margin-top: -50px;
+        position: relative;
+        text-align: inherit;
+    }
+
+
 }
+
 .elementor {
-   width: 25%;
-   border-radius: 15px;
-   border: none;
-   background-color: white;
-   
+    //width: 25%;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+
 }
+
 .elementorText {
     align-self: center;
     line-height: 1.2;
@@ -32,15 +39,17 @@
     text-align: left;
     font-size: 18px;
     font-weight: 550;
-    color:  rgb(5, 5, 115);
+    color: rgb(5, 5, 115);
 }
+
 .elementor2 {
     background-color: #1ec1b8;
     border-radius: 15px;
     border: none;
     height: 85px;
-   
+
 }
+
 .iconBox {
     background-color: #c4f5f2;
     height: 55px;
@@ -51,33 +60,39 @@
     justify-content: center;
     border-radius: 5px;
 }
+
 .bilgiText {
     color: rgb(5, 5, 115);
     margin-top: 8px;
-    align-items:start;
+    align-items: start;
     display: flex;
 }
+
 .telText {
     color: rgb(248, 236, 221);
     margin: 0;
     padding: 0;
 }
+
 .wpLogo {
-    
+
     display: flex;
     justify-content: space-evenly;
 }
+
 .wpLogo2 {
     display: flex;
     justify-content: start;
     width: 100%;
     margin-bottom: 40px;
 }
+
 .elementorText2 {
-    color:  rgb(5, 5, 115);
+    color: rgb(5, 5, 115);
     font-size: 13px;
 }
+
 .elementorText:hover {
-    color:rgba(0, 173, 115, 0.8);
+    color: rgba(0, 173, 115, 0.8);
     transition: .34s;
 }

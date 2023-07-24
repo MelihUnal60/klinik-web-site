@@ -2,7 +2,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import styles from './Naav.module.scss';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import React, { useState, useEffect } from "react"
+import React, { useState} from "react"
 import { useNavigate } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import logo from '../../Assets/logoCanva6.png';
@@ -11,21 +11,21 @@ const Naav = () => {
 
     const navigate = useNavigate();
 
-    const [navbar, setNavbar] = useState(false)   //navbar scroll when active state
+    const [navbar] = useState(false)   //navbar scroll when active state
 
-    const changeBackground = () => {
-        console.log(window.scrollY)
-        if (window.scrollY >= 60) {
-            setNavbar(true)
-        } else {
-            setNavbar(false)
-        }
-    }
-    useEffect(() => {
-        changeBackground()
-        // adding the event when scroll change background
-        window.addEventListener("scroll", changeBackground)
-    })
+    // const changeBackground = () => {
+    //     //console.log(window.scrollY)
+    //     if (window.scrollY >= 60) {  
+    //         setNavbar(true)
+    //     } else {
+    //         setNavbar(false)
+    //     }
+    // }
+    // useEffect(() => {
+    //     changeBackground()
+    //     // adding the event when scroll change background
+    //     window.addEventListener("scroll", changeBackground)
+    // })
 
 
     const menus = [
@@ -52,11 +52,7 @@ const Naav = () => {
 
 
     ]
-    {/* <NavDropdown.Item href="#treatments/1"></NavDropdown.Item>
-              <NavDropdown.Item href="#treatments/2">Estetik Diş Hekimliği </NavDropdown.Item>
-              <NavDropdown.Item href="#treatments/3"></NavDropdown.Item>
-              <NavDropdown.Item href="#treatments/4">Ortodonti</NavDropdown.Item>
-              <NavDropdown.Item href="#treatments/4">Pedodonti</NavDropdown.Item> */}
+    
     const treatments = [
         {
             name: "Dental İmplant",
@@ -106,14 +102,13 @@ const Naav = () => {
                 <Container>
                     <Navbar.Brand>
                         <NavLink to="/" className={`${styles.navLink} text-uppercase`}>
-                            <img src={logo} height={'55px'} />
+                            <img src={logo} alt='Çalışkan Dent Logo' height={'55px'} />
                         </NavLink>
                     </Navbar.Brand>
                     <Navbar.Toggle className='order-5' aria-controls="navbarScrooll" />
                     <Navbar.Collapse id="navbarScrooll">
                         <Nav className={`ml-auto my-2 my-lg-0 ${styles.navBarCustom}`}
-                            style={{ maxHeight: "50px" }}
-                            navbarScrooll>
+                            style={{ maxHeight: "50px" }}>
                             {menus.map((menu) => <NavLink
                                 key={menu.id}
                                 to={menu.path}

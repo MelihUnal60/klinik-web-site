@@ -29,7 +29,7 @@ function TreatmentCard() {
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
 
 
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', height: '340px', marginTop: '20px' }}>
+                    <Card >
                         <Card.Img variant="top" src={implant} />
                         <Card.Body className={styles.cardBody}>
                             <Card.Title className={`${styles.mainTedaviLabel}`} >Dental İmplant</Card.Title>
@@ -39,7 +39,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', height: '340px', marginTop: '20px' }}>
+                    <Card >
                         <Card.Img variant="top" src={zirkonyum2} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Zirkonyum Porselen</Card.Title>
@@ -49,7 +49,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', height: '340px', marginTop: '20px'}}>
+                    <Card >
                         <Card.Img variant="top" src={kanal} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Kanal Tedavisi</Card.Title>
@@ -59,7 +59,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', marginTop: '20px', height: '340px'}}>
+                    <Card >
                         <Card.Img variant="top" src={dolgu} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Estetik Dolgular</Card.Title>
@@ -69,7 +69,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', marginTop: '20px', height: '340px' }}>
+                    <Card >
                         <Card.Img variant="top" src={gomuk} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Çene Cerrahisi</Card.Title>
@@ -79,7 +79,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', marginTop: '20px', height: '340px' }}>
+                    <Card >
                         <Card.Img variant="top" src={lamina} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Porselen Laminalar</Card.Title>
@@ -89,7 +89,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', marginTop: '20px', height: '340px'}}>
+                    <Card >
                         <Card.Img variant="top" src={plak} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Bruksizm - Şeffaf Plak</Card.Title>
@@ -99,7 +99,7 @@ function TreatmentCard() {
                     </Card>
                 </div>
                 <div className={`${styles.mainTedavi} col-12 col-sm-6 col-md-3`}>
-                    <Card style={{ boxShadow: '0px 0px 4px darkblue', marginTop: '20px', height: '340px'}}>
+                    <Card >
                         <Card.Img variant="top" src={greft} />
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Greft & Kemik Tozu </Card.Title>

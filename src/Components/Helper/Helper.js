@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Helper.module.scss';
 import { AiOutlineSchedule } from 'react-icons/ai';
-import { BiColor } from 'react-icons/bi';
 import { SiWhatsapp } from 'react-icons/si';
 
 const style = { color: "#0BAFA7", fontSize: "1.5rem" }
@@ -9,7 +8,7 @@ const style2 = { color: "rgb(55, 253, 55)", fontSize: "2rem" }
 function Helper() {
     return (
         <div className={`container elementor-column-gap-default ${styles.helperMain}`}>
-            <div className='row w-100'>
+            <div className='row py-2 w-100'>
                 <button className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
                     <div className={`elementor-widget-wrap elementor-element-populated `}>
                         <div className={`elementor-widget container-fluid`}>
