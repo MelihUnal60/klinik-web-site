@@ -18,7 +18,7 @@ function Header() {
         <div className={`container-fluid fixed-top ${styles.headerContainer}`}>
             <div className='row'>
                 <div className={`col-4 ${styles.headerPhone}`}>
-                    <button className=' btn d-flex'>
+                    <button className={`btn d-flex ${styles.phoneBtn}`}>
                         <div className={` ${styles.phoneIcon}`}>
                             <BsTelephoneInboundFill />
                         </div>
