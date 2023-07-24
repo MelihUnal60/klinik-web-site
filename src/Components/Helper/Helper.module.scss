@@ -16,8 +16,17 @@
         position: relative;
         text-align: inherit;
     }
-
-
+}
+@media screen and (max-width:576px) {
+    .elementor {
+        box-shadow: 0px 0px 2px 0px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+    .elementor2 {
+        box-shadow: 0px 0px 2px 0px;
+        margin-left: 10px;
+    }
 }
 
 .elementor {
