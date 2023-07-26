@@ -4,6 +4,31 @@ import Form from 'react-bootstrap/Form'
 import appointmentimg from '../../Assets/gulus2.jpg'
 import Button from 'react-bootstrap/Button';
 
+function send(name, surname, phone) {
+    var myHeaders = new Headers();
+    myHeaders.append("accept", "text/plain");
+    myHeaders.append("Content-Type", "application/json");
+    
+    var raw = JSON.stringify({
+      "id": 0,
+      "name": name,
+      "surname": surname,
+      "phone": phone
+    });
+    
+    var requestOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: raw,
+      redirect: 'follow'
+    };
+    
+    fetch("https://localhost:7013/AppointmentForm", requestOptions)
+      .then(response => response.text())
+      .then(result => console.log(result))
+      .catch(error => console.log('error', error));
+
+}
 
 function AppointmentForm() {
     return (

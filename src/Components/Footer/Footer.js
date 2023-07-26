@@ -3,7 +3,6 @@ import styles from './Footer.module.scss';
 import { BsTelephoneInboundFill } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { RiInstagramFill } from 'react-icons/ri';
-import AccordionItem from '../Accordion/AccordionItem';
 import { MdArrowDropDownCircle } from 'react-icons/md';
 import Konum from './Konum.png';
 import { SlCalender } from 'react-icons/sl';
