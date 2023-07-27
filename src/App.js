@@ -11,6 +11,8 @@ import SendRoentgen from "./pages/SendRoentgen/SendRoentgen"
 import BeforeAfter from "./pages/BeforeAfter/BeforeAfter"
 import Navbar from './Components/Nav/Naav'
 import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
+import { SiWhatsapp } from 'react-icons/si'
+import styles from './App.scss'
 
 function App() {
   return (
@@ -33,8 +35,15 @@ function App() {
           <Route path="/sendroentgen" element={<SendRoentgen />} />
 
         </Routes>
-
-      <Footer />
+        <a
+          href="https://wa.me/905435288364"
+          className="whatsapp_float"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiWhatsapp />
+        </a>
+        <Footer />
       </div>
 
     </>

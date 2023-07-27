@@ -44,7 +44,7 @@ function Header() {
                     <div className="dropdown">
 
                         <a className={`btn dropdown-toggle bg-white ${styles.drdown}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src={gb} className={styles.flags} />
+                            <img src={gb} className={styles.flags} alt='English'/>
                             <span className={styles.langText}>English</span>
                         </a>
 
@@ -52,7 +52,7 @@ function Header() {
 
                             <li>
                                 <a className={`btn dropdown-item `} role='button' href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <img src={tr} className={styles.flags} />
+                                    <img src={tr} className={styles.flags} alt='Türkçe' />
                                     <span>Türkçe</span>
                                 </a>
                             </li>

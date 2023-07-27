@@ -32,14 +32,14 @@ function HealthTourismContent() {
                             <button onClick={()=> navigateTourism ('/sendroentgen')} type="button" className={`btn btn-success btn-lg ${styles.btnTourismRoentgen}`}>RÖNTGEN GÖNDERİN</button>
                         </div>
                         <div className={`col-12 col-md-6 ${styles.tourismImg}`}>
-                            <img className={styles.imgRnt} src={tourismRoentgen} />
+                            <img className={styles.imgRnt} alt='Röntgen Gönderin' src={tourismRoentgen} />
                         </div>
                     
 
 
                     
                         <div className={`col-12 col-md-6 py-5 ${styles.tourismImg}`}>
-                            <img src={toothSun} />
+                            <img src={toothSun} alt='Dişleriniz Bayram Etsin' />
                         </div>
                         <div className={`col-12 col-md-6 ${styles.tourismText}`}>
                             <h5 className={`${styles.tourismTextLabel}`}>
@@ -72,7 +72,7 @@ function HealthTourismContent() {
 
                 </div>
                 <div className={`col-12 d-flex justify-content-center ${styles.tourismImg}`}>
-                    <img className={styles.vitoPhoto} src={transfer} />
+                    <img className={styles.vitoPhoto} src={transfer} alt='Tedavi ve Seyahat süreçlerinizi planlayalım'/>
                 </div>
 
             </div>

@@ -10,7 +10,7 @@ function AboutContent() {
                 <h2 className={`text-center py-5 ${styles.aboutLabel}`}>Gülümsemeleri Yeniden İnşa Eden Merkez ;</h2>
                 <div className='row'>
                 <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                    <img src={smile} />
+                    <img src={smile} alt='Gülüşünüze estetik katalım' />
                 </div>
                 <div className={`col-12 col-md-6`}>
                     <h5 className={`py-2 ${styles.aboutMainLabel}`}>Gülüşünüzle Fark Yaratın</h5>
@@ -40,7 +40,7 @@ function AboutContent() {
                     </p>
                 </div>
                 <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                    <img src={prof} />
+                    <img src={prof} alt='Uzman Dişhekimliği' />
                 </div>
                 </div>
                 

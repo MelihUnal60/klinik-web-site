@@ -25,7 +25,7 @@ function ContactCard() {
         </br>
         <div className={`row ${styles.contactContent}`}>
           <div className={`col-12 col-md-6 d-flex justify-content-start ${styles.rPhoto}`}>
-            <img className={styles.contactPhoto} src={main2} />
+            <img className={styles.contactPhoto} alt='İletişim' src={main2} />
           </div>
           <div className={`col-12 col-md-2`}>
             <button className={`btn btn-primary ${styles.btnContact}`}>TELEFON ET</button>
