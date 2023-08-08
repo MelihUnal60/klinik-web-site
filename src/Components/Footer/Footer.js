@@ -6,10 +6,12 @@ import { RiInstagramFill } from 'react-icons/ri';
 import { MdArrowDropDownCircle } from 'react-icons/md';
 import Konum from './Konum.png';
 import { SlCalender } from 'react-icons/sl';
+import {sendCallInfoData} from '../../APIService/Services';
 
 
 
 function Footer() {
+
     return (
 
         <div className={styles.footer}>
@@ -87,21 +89,23 @@ function Footer() {
                         <form>
                             <div className="">
                                 <label htmlFor="exampleInputEmail1" className="form-label">Ad / Soyad</label>
-                                <input type="text" className={`form-control ${styles.footerInput}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                <input type="text" className={`form-control ${styles.footerInput}`} id="inputNameSurname" aria-describedby="emailHelp" />
+                                
+                            
 
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="exampleInputPassword1" className="form-label">Telefon Numarası</label>
-                                <input type="telephone" className={`form-control ${styles.footerInput}`} id="exampleInputPassword1" />
+                                <input type="telephone" className={`form-control ${styles.footerInput}`} id="inputPhone" />
                             </div>
                             <div className="mb-3 form-check">
-                                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                <input type="checkbox" className="form-check-input" id="checkAllow" />
                                 <label className="form-check-label" htmlFor="exampleCheck1"><strong>Gizlilik koşullarını okudum kabul ediyorum.</strong></label>
                                 <p className={styles.formGz}>
                                     Formda girmiş olduğunuz bilgiler sadece sizlere geri dönüş sağlayabilmek ve randevunuzun oluşturulması için kullanılacaktır.
                                 </p>
                             </div>
-                            <button type="submit" className="btn btn-outline-secondary">Gönder</button>
+                            <button type="submit" onClick={sendCallInfoData} /*</form>onClick={() => [setGetNameSurname(),setGetPhone()]}*/ className="btn btn-outline-secondary">Gönder</button>
                         </form>
                     </div>
                 </div>

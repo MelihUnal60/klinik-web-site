@@ -31,10 +31,16 @@ function ContactCard() {
             <button className={`btn btn-primary ${styles.btnContact}`}>TELEFON ET</button>
             <br></br>
             <br></br>
-            <button className={`btn btn-primary ${styles.btnContact}`}>WHATSAPP İLETİŞİM HATTI</button>
+            <button onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href = 'https://wa.me/905435288364';
+                    }} className={`btn btn-primary ${styles.btnContact}`}>WHATSAPP İLETİŞİM HATTI</button>
             <br></br>
             <br></br>
-            <button className={`btn btn-primary ${styles.btnContact}`}>YOL TARİFİ</button>
+            <button onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href = 'https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu';
+                    }}  className={`btn btn-primary ${styles.btnContact}`}>YOL TARİFİ</button>
           </div>
           
         </div>

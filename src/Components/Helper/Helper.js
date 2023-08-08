@@ -71,22 +71,28 @@ function Helper() {
                         </div>
                     </div>
                 </button>
-                <button className={`elementor-column text-center col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
-                    <div className={`container`}>
-                        <div className='row'>
-                            <div>
-                                <div className={`elementor-iletisim ${styles.bilgiText}`}>
-                                    <h5>Bilgi ve Randevu İçin <SiWhatsapp style={style2} /></h5>                       
-                                </div>
-                                <div className={`${styles.telText}`}>
-                                    <h3>0 543 528 83 64</h3>
-                                </div>
+                
+                    <button onClick={(e) => {
+                        e.preventDefault();
+                        window.location.href = 'https://wa.me/905435288364';
+                    }} className={`elementor-column text-center col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
+                        <div className={`container`}>
+                            <div className='row'>
+                                <div>
+                                    <div className={`elementor-iletisim ${styles.bilgiText}`}>
+                                        <h5>Bilgi ve Randevu İçin <SiWhatsapp style={style2} /></h5>
+                                    </div>
+                                    <div className={`${styles.telText}`}>
+                                        <h3>0 543 528 83 64</h3>
+                                    </div>
 
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-        </button>
+                    </button>
+                
+
 
             </div >
         </div >

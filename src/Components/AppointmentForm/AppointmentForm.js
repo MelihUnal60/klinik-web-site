@@ -3,32 +3,8 @@ import styles from './AppointmentForm.module.scss'
 import Form from 'react-bootstrap/Form'
 import appointmentimg from '../../Assets/gulus2.jpg'
 import Button from 'react-bootstrap/Button';
+import { sendAppointmentForm } from '../../APIService/Services';
 
-function send(name, surname, phone) {
-    var myHeaders = new Headers();
-    myHeaders.append("accept", "text/plain");
-    myHeaders.append("Content-Type", "application/json");
-    
-    var raw = JSON.stringify({
-      "id": 0,
-      "name": name,
-      "surname": surname,
-      "phone": phone
-    });
-    
-    var requestOptions = {
-      method: 'POST',
-      headers: myHeaders,
-      body: raw,
-      redirect: 'follow'
-    };
-    
-    fetch("https://localhost:7013/AppointmentForm", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
-
-}
 
 function AppointmentForm() {
     return (
@@ -45,19 +21,19 @@ function AppointmentForm() {
                     <div className={`col-12 ${styles.appointmentForm}`}>
                         <Form>
                             <Form.Group className={`mb-3 ${styles.formMsg}`} controlId="exampleForm.ControlInput1">
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" placeholder="Ad - Soyad" />
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" placeholder="Telefon"  />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" id='appNameSurname' placeholder="Ad - Soyad" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="email" id='appPhone' placeholder="Telefon"  />
                             </Form.Group>
                             <Form.Group className={`mb-3 ${styles.formMsg}`}>
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" placeholder="" />
-                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" placeholder="Randevu saati seçiniz" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="date" id='appDate' placeholder="" />
+                                <Form.Control className={`m-0 p-1 ${styles.formCntrl}`} type="time" id='appTime' placeholder="Randevu saati seçiniz" />
                             </Form.Group>
                             
                             <Form.Group className={`mb-3 ${styles.formMsg}`} controlId="exampleForm.ControlTextarea1">
-                                <Form.Control placeholder='Şikayetiniz ile ilgili bilgi verebilir misiniz?' className={`mr-3 ${styles.formCntrl2}`} as="textarea" rows={3}  />
+                                <Form.Control placeholder='Şikayetiniz ile ilgili bilgi verebilir misiniz?' id='appTxt' className={`mr-3 ${styles.formCntrl2}`} as="textarea" rows={3}  />
                             </Form.Group>
                             <div className={styles.btnForm}>
-                            <button type="button" className="btn btn-primary btn-lg ">GÖNDER</button>
+                            <button type="button" onClick={sendAppointmentForm} className="btn btn-primary btn-lg ">GÖNDER</button>
                             </div>
                         </Form>
                     </div>
