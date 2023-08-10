@@ -6,7 +6,7 @@ export default async function sendData(uri,body){
     myHeaders.append("accept", "text/plain");
     myHeaders.append("Content-Type", "application/json"); 
 
-    fetch("https://localhost:7013/" + uri,
+    fetch("http://localhost:5141/" + uri,
     {
         method:"POST",
         body:JSON.stringify(body),
