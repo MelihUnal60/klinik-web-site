@@ -26,7 +26,7 @@ function RoentgenCard() {
       formData.append("roentgenImg", selectedFile,selectedFile.name);
       formData.append('nameSurname', nameSurname);
       formData.append('phone', phone);
-      formData.append('textArea', textArea);
+      formData.append('textArea', textArea); 
 
       try {
         await axios.post('http://localhost:5141/RoentgenRecord', formData, {
