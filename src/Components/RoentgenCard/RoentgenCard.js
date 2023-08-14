@@ -29,16 +29,19 @@ function RoentgenCard() {
       formData.append('textArea', textArea); 
 
       try {
-        await axios.post('http://localhost:5141/RoentgenRecord', formData, {
-          headers: {
-            'Content-Type': 'multipart/form-data',
-          },
-        });
+        const response = await fetch('http://api.caliskandent.com/RoentgenRecord', {
+        method: 'POST',
+        body: formData
+      });
 
+      if (response.ok) {
         console.log('Data uploaded successfully.');
-      } catch (error) {
-        console.error('Error uploading data:', error);
+      } else {
+        console.error('Error uploading data.');
       }
+    } catch (error) {
+      console.error('An error occurred:', error);
+    }
 
     }
   };
