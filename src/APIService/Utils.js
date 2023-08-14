@@ -6,7 +6,7 @@ export default async function sendData(uri,body){
     myHeaders.append("accept", "text/plain");
     myHeaders.append("Content-Type", "application/json"); 
 
-    fetch("http://localhost:5141/" + uri,
+    fetch("http://api.caliskandent.com/" + uri,
     {
         method:"POST",
         body:JSON.stringify(body),
