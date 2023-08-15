@@ -13,6 +13,8 @@ import Navbar from './Components/Nav/Naav'
 import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
 import { SiWhatsapp } from 'react-icons/si'
 import styles from './App.scss'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
 
 function App() {
   return (

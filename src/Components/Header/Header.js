@@ -18,6 +18,7 @@ function Header() {
         <div className={`container-fluid fixed-top ${styles.headerContainer}`}>
             <div className='row'>
                 <div className={`col-4 ${styles.headerPhone}`}>
+                    <a href='tel:05435288364' style={{ textDecoration: 'none' }}>
                     <button className={`btn d-flex ${styles.phoneBtn}`}>
                         <div className={` ${styles.phoneIcon}`}>
                             <BsTelephoneInboundFill />
@@ -28,6 +29,7 @@ function Header() {
                             </h6>
                         </div>
                     </button>
+                    </a>
                 </div>
                 <div className={`col-4  ${styles.headerIcon}`}>
                     <a className={styles.aIcon} href="https://www.facebook.com/Microsoft/">

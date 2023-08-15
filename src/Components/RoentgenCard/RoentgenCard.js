@@ -4,6 +4,8 @@ import sendr from '../../Assets/sendr.png';
 import Form from 'react-bootstrap/Form';
 import { sendRoentgenRecord } from '../../APIService/Services';
 import axios from 'axios';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function RoentgenCard() {
 
@@ -36,11 +38,14 @@ function RoentgenCard() {
 
       if (response.ok) {
         console.log('Data uploaded successfully.');
+        toast.success('Röntgen başarıyla yüklendi.');
       } else {
         console.error('Error uploading data.');
+        toast.error('Error uploading data.');
       }
     } catch (error) {
       console.error('An error occurred:', error);
+      toast.error('An error occurred.');
     }
 
     }

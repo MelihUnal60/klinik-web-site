@@ -1,11 +1,11 @@
 @import '../../Styles/Global.scss';
 
 .aboutContentContainer {
-    height: 1300px;
+    height: 2000px;
 }
 .aboutContentContainer img {
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
 }
 .aboutLabel {
     font-weight: 500;
@@ -21,4 +21,10 @@
 .aboutMainP {
     font-size: 25px;
     align-content: center;
+}
+@media screen and (min-width:576px) {
+    .aboutContentContainer img {
+        height: 400px;
+        width: 400px;
+}
 }

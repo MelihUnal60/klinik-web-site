@@ -5,7 +5,7 @@
     
 }
 .tourismContainer{
-    height: 1450px;
+    height: 2400px;
 }
 .tourismLabel {
     font-style: italic;
@@ -35,12 +35,18 @@
     display: flex;
     align-items: center;
 }
-@media screen and (max-width:576px) {
-    .tourismContainer img {
-        width: 320px;
+.vitoPhoto {
+    width: 320px;
+}
+.tourismContainer img {
+    width: 320px;
+}
+@media screen and (min-width:576px) {
+    .tourismContainer{
+        height: 1800px;
     }
-    .vitoPhoto {
-        display: none;
+    .vitoPhoto{
+        width: 800px;
     }
     .imgRnt {
         margin-top: 20px;
