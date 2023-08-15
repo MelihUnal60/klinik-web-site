@@ -31,7 +31,6 @@ function App() {
           <Route path="/healthtourism" element={<HealthTourismContent />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/treatments" element={<Treatments />} />
-          <Route path="/*" element={<Error />} />
           <Route path="/sendroentgen" element={<SendRoentgen />} />
 
         </Routes>
@@ -45,6 +44,7 @@ function App() {
         </a>
         <Footer />
       </div>
+
 
     </>
   );
