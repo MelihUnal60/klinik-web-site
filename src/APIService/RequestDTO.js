@@ -6,10 +6,12 @@ export  function RequestAppointmentDTO(phone,nameSurname,appointmentDate,appoint
     this.textArea = textArea;
 }
 
+
 export  function RequestCallInfoDTO(phone,nameSurname,){
     this.phone = phone;
     this.nameSurname = nameSurname;
 }
+
 
 export function RequestRoentgenRecordDTO(phone,namesurname,textarea,roentgenImg){
     this.phone = phone;
