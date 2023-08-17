@@ -15,6 +15,7 @@ import { SiWhatsapp } from 'react-icons/si'
 import styles from './App.scss'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
+import { toast } from 'react-toastify';
 
 function App() {
   return (
