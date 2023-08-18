@@ -57,7 +57,7 @@ const changeBackground=()=>{
     {
         name: "Dental İmplant",
         id: 1,
-        path: "/dental-implant"
+        path: "../pages/Treatments/Implant"
     },
     {
         name: "Zirkonyum-Porselen",

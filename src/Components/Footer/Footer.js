@@ -4,10 +4,9 @@ import { BsTelephoneInboundFill } from 'react-icons/bs';
 import { BsFacebook } from 'react-icons/bs';
 import { RiInstagramFill } from 'react-icons/ri';
 import { MdArrowDropDownCircle } from 'react-icons/md';
-import Konum from './Konum.png';
 import { SlCalender } from 'react-icons/sl';
 import {sendCallInfoData} from '../../APIService/Services';
-
+import konum from '../../Assets/Konum.png';
 
 
 function Footer() {
@@ -80,7 +79,7 @@ function Footer() {
                     <div className='col-12 col-md-3'>
                         <div className={styles.lokasyon}>
                             <h4 className='mt-3  '>LOKASYONUMUZ</h4>
-                            <a className='d-flex justify-content-center' href="https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu" ><img src={Konum} alt="Klinik Konum" /></a>
+                            <a className='d-flex justify-content-center' href="https://www.google.com/maps/place/Di%C5%9F+Hekimi+Nurten+%C3%87al%C4%B1%C5%9Fkan/@40.9977269,28.8344996,15z/data=!4m6!3m5!1s0x14caa49fc75ad0a1:0x1fcabfa9d9c8959b!8m2!3d40.9977269!4d28.8344996!16s%2Fg%2F11c7s_0_y6?entry=ttu" ><img src={konum} alt="Klinik Konum" /></a>
                         </div>
                     </div>
                     <div className='col-12 col-md-3'>

@@ -16,6 +16,7 @@ import styles from './App.scss'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
 import { toast } from 'react-toastify';
+import './Components/Nav/Naav.module.scss';
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
         <Footer />
       </div>
 
-
+      <ToastContainer />
     </>
   );
 }
