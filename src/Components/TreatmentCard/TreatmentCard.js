@@ -9,11 +9,15 @@ import zirkonyum2 from '../../Assets/zirkonyum2.png';
 import dolgu from '../../Assets/dolgu5.jpg';
 import gomuk from '../../Assets/gomuk.jpg';
 import greft from '../../Assets/greft.png';
-import plak from '../../Assets/plak3.jpg'
+import plak from '../../Assets/plak3.jpg';
+import { useNavigate } from 'react-router-dom';
 
 
 
 function TreatmentCard() {
+
+    const navigate = useNavigate();
+
     return (
         <div className={`container-fluid ${styles.tedaviContainer}`}>
 
@@ -64,7 +68,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Estetik Dolgular</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/aestheticbonding')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -74,7 +78,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Çene Cerrahisi</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/chinsurgery')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>

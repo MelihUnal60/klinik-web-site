@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './Helper.module.scss';
 import { AiOutlineSchedule } from 'react-icons/ai';
 import { SiWhatsapp } from 'react-icons/si';
+import { useNavigate } from 'react-router-dom';
 
 const style = { color: "#0BAFA7", fontSize: "1.5rem" }
 const style2 = { color: "rgb(55, 253, 55)", fontSize: "2rem" }
 function Helper() {
+    const navigate=useNavigate();
     return (
         <div className={`container elementor-column-gap-default ${styles.helperMain}`}>
             <div className='row py-2 w-100'>
@@ -19,9 +21,12 @@ function Helper() {
 
                                 </div>
                                 <div className='ml-2 mt-1'>
+                                    <button type="button" className={` ${styles.btnHelper}`} onClick={() => navigate('/appointment')}>
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         HIZLI RANDEVU
                                     </h2>
+                                    </button>
+                                    
                                     <p className={`${styles.elementorText2}`}>Randevu talep edin.</p>
                                 </div>
                             </div>
@@ -39,11 +44,14 @@ function Helper() {
 
                                 </div>
                                 <div className='ml-2 mt-1'>
-                                    <h2 className={`elementor-header ${styles.elementorText}`}>
+                                    <button type="button" className={` ${styles.btnHelper}`} onClick={() => navigate('/sendroentgen')}>
+                                        <h2 className={`elementor-header ${styles.elementorText}`}>
 
-                                        RÖNTGEN GÖNDERİN
+                                            RÖNTGEN GÖNDERİN
 
-                                    </h2>
+                                        </h2>
+                                    </button>
+                                    
                                     <p className={`${styles.elementorText2}`}>Tedavinizi Planlayalım.</p>
                                 </div>
                             </div>
@@ -61,9 +69,12 @@ function Helper() {
 
                                 </div>
                                 <div className='ml-2'>
+                                    <button type="button" className={` ${styles.btnHelper}`} onClick={() => navigate('/healthtourism')}>
                                     <h2 className={`elementor-header ${styles.elementorText}`}>
                                         YURT DIŞI HASTA
                                     </h2>
+                                    </button>
+                                    
                                     <p className={`${styles.elementorText2}`}>Hizmetlerimizi inceleyin.</p>
                                 </div>
                             </div>
@@ -71,27 +82,27 @@ function Helper() {
                         </div>
                     </div>
                 </button>
-                
-                    <button onClick={(e) => {
-                        e.preventDefault();
-                        window.location.href = 'https://wa.me/905435288364';
-                    }} className={`elementor-column text-center col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
-                        <div className={`container`}>
-                            <div className='row'>
-                                <div>
-                                    <div className={`elementor-iletisim ${styles.bilgiText}`}>
-                                        <h5>Bilgi ve Randevu İçin <SiWhatsapp style={style2} /></h5>
-                                    </div>
-                                    <div className={`${styles.telText}`}>
-                                        <h3>0 543 528 83 64</h3>
-                                    </div>
 
+                <button onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = 'https://wa.me/905435288364';
+                }} className={`elementor-column text-center col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
+                    <div className={`container`}>
+                        <div className='row'>
+                            <div>
+                                <div className={`elementor-iletisim ${styles.bilgiText}`}>
+                                    <h5>Bilgi ve Randevu İçin <SiWhatsapp style={style2} /></h5>
                                 </div>
+                                <div className={`${styles.telText}`}>
+                                    <h3>0 543 528 83 64</h3>
+                                </div>
+
                             </div>
                         </div>
+                    </div>
 
-                    </button>
-                
+                </button>
+
 
 
             </div >

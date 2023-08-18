@@ -17,6 +17,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
 import { toast } from 'react-toastify';
 import './Components/Nav/Naav.module.scss';
+import AestheticBonding from './pages/Treatments/AestheticBonding/AestheticBonding';
+import ChinSurgery from "./pages/Treatments/ChinSurgery/ChinSurgery";
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/treatments" element={<Treatments />} />
           <Route path="/sendroentgen" element={<SendRoentgen />} />
+          <Route path="/aestheticbonding" element={<AestheticBonding />} />
+          <Route path="/chinsurgery" element={<ChinSurgery />} />
+
 
         </Routes>
         <a

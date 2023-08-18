@@ -1,15 +1,17 @@
 @import './Global.scss';
 
 .treatmentContentContainer {
-    height: 1300px;
+    height: 600px;
+    
 }
 .treatmentContentContainer img {
     height: 400px;
-    width: 400px;
+    width: 500px;
 }
 .treatmentLabel {
     font-weight: 500;
     color: rgb(0, 137, 91);
+    
 }
 .treatmentMainLabel {
     font-style: italic;
@@ -19,6 +21,7 @@
     color:rgb(16, 208, 144);
 }
 .treatmentMainP {
-    font-size: 25px;
+    font-size: 20px;
     align-content: center;
+    text-align:left;
 }

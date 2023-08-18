@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './MainContent.module.scss'
 
 import { FaTooth } from 'react-icons/fa'
-import hosg from '../../Assets/hosg.jpg'
+import hosg from '../../Assets/newmain.png'
 
 
 
