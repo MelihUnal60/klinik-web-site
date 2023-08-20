@@ -14,6 +14,7 @@ const Home=() => {
       <Slider /> 
       <Helper />
       <MainContent /> 
+      <hr className='m-0 p-0'></hr>
       <TreatmentCard />
       <AppointmentForm />
       <AboutOwner />

@@ -5,6 +5,8 @@ import bleatching from '../../Assets/bleatching2.jpg'
 import zirkonyum from '../../Assets/zirkonyum3.jpg'
 import plak from '../../Assets/splak1.jpg'
 import smile from '../../Assets/gulslide.jpg'
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

@@ -11,7 +11,7 @@ function ChinSurgery() {
                 <h2 className={`text-center py-5 ${styles.treatmentLabel}`}>Çene Cerrahisi</h2>
                 <div className='row'>
                 <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                    <img className='py-3' src={cerrahi} />
+                    <img className='py-3' src={cerrahi} alt='implant'/>
                      <hr></hr>
                      <hr></hr>
                    
@@ -59,7 +59,7 @@ function ChinSurgery() {
 
                 </div>
                 <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                    <img className='py-3' src={cerrahi2} />
+                    <img className='py-3' src={cerrahi2} alt='gömük diş' />
                 </div>
                 </div>
            

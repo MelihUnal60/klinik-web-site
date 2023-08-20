@@ -14,6 +14,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 function TreatmentCard() {
 
     const navigate = useNavigate();
@@ -38,7 +39,7 @@ function TreatmentCard() {
                         <Card.Body className={styles.cardBody}>
                             <Card.Title className={`${styles.mainTedaviLabel}`} >Dental İmplant</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/implant')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -48,7 +49,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Zirkonyum Porselen</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/zirconiumporcelain')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -58,7 +59,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Kanal Tedavisi</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/rootcanal')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -88,7 +89,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Porselen Laminalar</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/porcelainlaminate')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -98,7 +99,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Bruksizm - Şeffaf Plak</Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/bruksizm')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -108,7 +109,7 @@ function TreatmentCard() {
                         <Card.Body>
                             <Card.Title className={`${styles.mainTedaviLabel}`}>Greft & Kemik Tozu </Card.Title>
 
-                            <Button className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
+                            <Button onClick={()=> navigate ('/greft')} className={styles.btnTdv} variant="primary">Detaylı Bilgi</Button>
                         </Card.Body>
                     </Card>
                 </div>

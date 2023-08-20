@@ -57,7 +57,7 @@ const changeBackground=()=>{
     {
         name: "Dental İmplant",
         id: 1,
-        path: "../pages/Treatments/Implant"
+        path: "/implant"
     },
     {
         name: "Zirkonyum-Porselen",
@@ -72,12 +72,12 @@ const changeBackground=()=>{
     {
         name: "Estetik Dolgular",
         id: 4,
-        path: "/estetik-dolgular"
+        path: "/aestheticbonding"
     },
     {
         name: "Çene Cerrahisi",
         id: 5,
-        path: "/cene-cerrahisi"
+        path: "/chinsurgery"
     },
     {
         name: "Porselen Laminalar",
@@ -121,7 +121,7 @@ const changeBackground=()=>{
                                {
                                 treatments.map((menu) => (
                            
-                                     <NavDropdown.Item to={menu.path} href={"#treatments"+menu.id}>{menu.name}</NavDropdown.Item>
+                                     <NavDropdown.Item to={menu.path} href={menu.path}>{menu.name}</NavDropdown.Item>
                                 ))
                             
                                 }

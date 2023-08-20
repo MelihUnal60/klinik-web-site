@@ -4,7 +4,6 @@ import About from "./pages/About/About"
 import Appointment from "./pages/Appointment/Appointment"
 import Contact from "./pages/Contact/Contact"
 import Treatments from "./pages/Treatments/Treatments"
-import Error from "./pages/Error/Error"
 import Footer from './Components/Footer/Footer'
 import Header from "./Components/Header/Header"
 import SendRoentgen from "./pages/SendRoentgen/SendRoentgen"
@@ -12,13 +11,23 @@ import BeforeAfter from "./pages/BeforeAfter/BeforeAfter"
 import Navbar from './Components/Nav/Naav'
 import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
 import { SiWhatsapp } from 'react-icons/si'
-import styles from './App.scss'
+import styles from './App.scss' //whatsapp fixed logo
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
-import { toast } from 'react-toastify';
 import './Components/Nav/Naav.module.scss';
 import AestheticBonding from './pages/Treatments/AestheticBonding/AestheticBonding';
 import ChinSurgery from "./pages/Treatments/ChinSurgery/ChinSurgery";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Implant from "./pages/Treatments/Implant/Implant";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RootCanal from "./pages/Treatments/RootCanal/RootCanal";
+import ZirconiumPorcelain from "./pages/Treatments/ZirconiumPorcelain/ZirconiumPorcelain";
+import PorcelainLaminate from "./pages/Treatments/PorcelainLaminate/PorcelainLaminate"
+import Bruksizm from "./pages/Treatments/Bruksizm/Bruksizm"
+import Greft from "./pages/Treatments/Greft/Greft"
+
+
 
 function App() {
   return (
@@ -40,6 +49,12 @@ function App() {
           <Route path="/sendroentgen" element={<SendRoentgen />} />
           <Route path="/aestheticbonding" element={<AestheticBonding />} />
           <Route path="/chinsurgery" element={<ChinSurgery />} />
+          <Route path="/implant" element={<Implant />} />
+          <Route path="/rootcanal" element={<RootCanal />} />
+          <Route path="/zirconiumporcelain" element={<ZirconiumPorcelain />} />
+          <Route path="/porcelainlaminate" element={<PorcelainLaminate />} />
+          <Route path="/bruksizm" element={<Bruksizm />} />
+          <Route path="/greft" element={<Greft />} />
 
 
         </Routes>

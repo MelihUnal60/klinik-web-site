@@ -10,7 +10,7 @@ function AestheticBonding() {
                 <h2 className={`text-center py-5 ${styles.treatmentLabel}`}>Dişinizin Doğal Renginde Estetik Dolgular</h2>
                 <div className='row'>
                     <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                        <img src={estdolgu} />
+                        <img src={estdolgu} alt='estetik kompozit dolgu'/>
                     </div>
                     <div className={`col-12 col-md-6`}>
                         <h5 className={`py-2 text-center ${styles.treatmentMainLabel}`}>Gülüşünüzle Fark Yaratın</h5>
@@ -59,7 +59,7 @@ function AestheticBonding() {
 
                     </div>
                     <div className={`col-12 col-md-6 d-flex justify-content-center`}>
-                        <img className='' src={estdolgu2} />
+                        <img className='' src={estdolgu2} alt='estetik diş dolgusu'/>
                     </div>
                 </div>
 

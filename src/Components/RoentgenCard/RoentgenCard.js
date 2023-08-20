@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import styles from './RoentgenCard.module.scss';
 import sendr from '../../Assets/sendr.png';
 import Form from 'react-bootstrap/Form';
-import { sendRoentgenRecord } from '../../APIService/Services';
-import axios from 'axios';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

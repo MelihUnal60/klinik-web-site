@@ -1,8 +1,6 @@
-import React from 'react'
-import styles from './AppointmentForm.module.scss'
-import Form from 'react-bootstrap/Form'
-import appointmentimg from '../../Assets/gulus2.jpg'
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import styles from './AppointmentForm.module.scss';
+import Form from 'react-bootstrap/Form';
 import { sendAppointmentForm } from '../../APIService/Services';
 
 

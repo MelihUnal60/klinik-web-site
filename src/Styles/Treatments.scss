@@ -1,12 +1,17 @@
 @import './Global.scss';
 
 .treatmentContentContainer {
-    height: 600px;
+    height: 950px;
     
 }
+.brHidden{
+    display: none;
+}
 .treatmentContentContainer img {
-    height: 400px;
-    width: 500px;
+    
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px;
 }
 .treatmentLabel {
     font-weight: 500;
@@ -21,7 +26,18 @@
     color:rgb(16, 208, 144);
 }
 .treatmentMainP {
-    font-size: 20px;
+    font-size: 17px;
     align-content: center;
     text-align:left;
+}
+@media screen and (min-width:576px) {
+    .treatmentContentContainer img {
+        height: 400px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 4px 0px;
+    }
+    .treatmentMainP{
+        font-size: 20px;
+    }
 }
