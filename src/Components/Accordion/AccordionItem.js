@@ -1,10 +1,11 @@
 import Accordion from 'react-bootstrap/Accordion';
 import {BiPlusMedical} from 'react-icons/bi';
 import './AccordionItem.module.scss';
+import { noop } from 'jquery';
 
 function AccordionItem() {
   return (
-    <Accordion defaultActiveKey="0" className='acorAdres'>
+    <Accordion defaultActiveKey={0} className='acorAdres'>
       <Accordion.Item eventKey="0" className='bdt-ep-accordion-item bdt-flex-between'>
         <Accordion.Header className=' d-flex'>
             <span className='float-left'>
