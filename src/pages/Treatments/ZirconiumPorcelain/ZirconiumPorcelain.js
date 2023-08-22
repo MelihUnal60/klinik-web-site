@@ -63,11 +63,6 @@ function ZirconiumPorcelain() {
                     <img src={zirkonyum2} alt='zirkonyum diş'/>
                 </div>
                 </div>
-           
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
             </div>
 
         </div>

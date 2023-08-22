@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './AboutOwner.module.scss'
+import kurucu from '../../Assets/kurucu.png'
 
 function AboutOwner() {
     return (
@@ -12,7 +13,7 @@ function AboutOwner() {
                 
                     
                         <div className={`col-12 col-lg-6 ${styles.aboutPhoto}`}>
-                            BURAYA FOTO GELECEK
+                            <img src={kurucu} alt='Diş Hekimi Nurten Çalışkan'/>
                         </div>
                         <div className={`col-12 col-lg-6 mt-3 ${styles.aboutMe}`}>
                             <p>

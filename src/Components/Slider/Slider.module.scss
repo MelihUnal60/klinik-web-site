@@ -27,7 +27,7 @@
     border: none;
 }
 
-.carouselIndicators {
+.carouselIndicators2 {
     position: absolute !important;
     right: 80px !important;
     top: 210px !important;
@@ -91,19 +91,28 @@ button:focus {
 .carouselImg2 {
     filter: brightness(140%);
 }
+.carousel-control-prev-icon
+{
+  background-image: none !important;
+}
+
 
 @media screen and (max-width:576px) {
-    .labels {
-        font-size: 20px !important;
-        font-weight: 500 !important;
+     .labels {
+       font-size: 20px !important;
+       font-weight: 500px !important;
         color: rgb(248, 238, 229) !important;
-        // position: absolute !important;
-        // top: 130px !important;
-        // left: 20px !important;
+        position: absolute;
+        bottom: 100px;
+        
+         
     }
 
     .labels2 {
         font-size: 20px;
+        position: absolute;
+        bottom: 100px;
+        
     }
 
     .slider {
@@ -114,7 +123,7 @@ button:focus {
         height: 500px;
     }
 
-    .carouselIndicators {
+    .carouselIndicators2 {
         position: absolute !important;
         right: 40px !important;
         top: 150px !important;

@@ -6,6 +6,7 @@ import './index.scss';
 import './Styles/Global.scss';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; // Toast stilini ekleyin
+import Slider from './Components/Slider/Slider';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,6 +15,8 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById('root')
 );
+
+
 
 
 
