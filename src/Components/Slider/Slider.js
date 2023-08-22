@@ -17,7 +17,7 @@ function Slider() {
         setActiveIndex(selectedIndex);
     };
 
-    const indicatorItems = Array(5).fill(null).map((_, index) => (
+    const indicatorItems = Array(4).fill(null).map((_, index) => (
         <li
             key={index}
             className={index === activeIndex ? 'active' : ''}
@@ -27,32 +27,32 @@ function Slider() {
 
 
     return (
-        <Carousel prevIcon={false} aria-colcount={4} indicators={false} nextIcon={false} aria-controls='false' className={`carousel-slide ${styles.slider}`}>
-            <Carousel.Item interval={2000}>
+        <Carousel ride="carousel" interval={false} wrap={true} prevIcon={false} aria-colcount={4} indicators={false} nextIcon={false} aria-controls='false' className={`carousel-slide ${styles.slider}`}>
+            <Carousel.Item interval={3000}>
                 <img src={zirkonyum} className="d-block w-100 simg" alt="Zirkonyum diş uygulamaları" />
                 <Carousel.Caption className=" d-md-block">
                     <h5 className={`${styles.labels2}`}>DOĞAL ZİRKONYUM</h5>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img src={implant} className="d-block w-100 simg" alt="Dental implant uygulamaları" />
                 <Carousel.Caption className=" d-md-block">
                     <h5 className={`${styles.labels2}`}>DENTAL İMPLANT İLE GENÇLEŞİN</h5>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img src={smile} className={`d-block w-100 ${styles.carouselImg2}`} alt="Gülüş tasarım uygulamaları" />
                 <Carousel.Caption className=" d-md-block">
                     <h5 className={`${styles.labels}`}>GÜLÜŞÜNÜZÜ YENİDEN TASARLAYALIM</h5>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img src={bleatching} className="d-block w-100" alt="Diş beyazlatma uygulamaları" />
                 <Carousel.Caption className=" d-md-block">
                     <h5 className={`${styles.labels}`}>BLEACHİNG DİŞ BEYAZLATMA</h5>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={3000}>
                 <img src={plak} className={`d-block w-100 ${styles.carouselImg}`} alt="Diş beyazlatma uygulamaları" />
                 <Carousel.Caption className=" d-md-block">
                     <h5 className={`${styles.labels2}`}>ŞEFFAF PLAKLAR</h5>

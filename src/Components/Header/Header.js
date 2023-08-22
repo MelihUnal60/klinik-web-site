@@ -34,7 +34,7 @@ function Header() {
                 <div className={`col-4  ${styles.headerIcon}`}>
                     <a className={styles.aIcon} href="https://www.facebook.com/Microsoft/">
                     <BsFacebook /> </a>
-                    <a className={styles.aIcon2} href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
+                    <a className={styles.aIcon2} href="https://www.instagram.com/caliskandent34/">
                     <RiInstagramFill /></a>
                     <button onClick={()=> navigateHeader ('/healthtourism')} type='button' className={`btn btn-sm text-center ${styles.headerTrzm}`}>
                          <RiHandSanitizerFill />

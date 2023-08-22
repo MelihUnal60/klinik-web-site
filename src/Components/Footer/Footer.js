@@ -20,7 +20,7 @@ function Footer() {
                     <div className='col-12 col-md-3'>
                         <div className={styles.lokasyon}>
                             <h4 className={`pt-3 pr-5 ${styles.bizeUlasin}`}>BİZE ULAŞIN</h4>
-                            <button className={`btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center ${styles.btnBizeUlasin} `} type="button"><BsTelephoneInboundFill />0212 503 00 05</button>
+                            <a className='' href='tel:05435288364' style={{ textDecoration: 'none' }}><button className={`btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center ${styles.btnBizeUlasin} `} type="button"><BsTelephoneInboundFill />0212 503 00 05</button></a>
                             <button className={`btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center ${styles.btnBizeUlasin} `} type="button"><SlCalender />Online Randevu</button>
                             <button className={`btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center ${styles.btnBizeUlasin} `} type="button">admin@caliskandent.com</button>
                             <button className={`btn btn-outline-secondary w-75 mb-3 d-flex justify-content-center ${styles.btnBizeUlasin} `} type="button">
